@@ -1,0 +1,47 @@
+
+.site-header{position:fixed; inset:0 0 auto 0; z-index:1000; border-bottom:1px solid transparent; transition:background-color .25s ease,border-color .25s ease}
+.site-header[data-appearance="on-hero"]{background:transparent; border-color:transparent}
+.site-header[data-appearance="solid"]{background:#fff; border-color:#ddd}
+.site-header__inner{display:flex; align-items:center; justify-content:center; min-height:var(--header-h); position:relative; padding-inline:calc(var(--gutter) + var(--safe-l));}
+.brand{display:inline-flex; align-items:center; justify-content:center; line-height:0}
+.brand img{height:32px; width:auto; display:block; transition:filter .25s ease}
+.site-header[data-appearance="on-hero"] .brand img{filter:invert(1) brightness(110%)}
+
+/* Hamburger */
+.hamburger{position:absolute; left:calc(var(--gutter) + var(--safe-l) - 8px); top:50%; transform:translateY(-50%); width:48px; height:48px; display:grid; place-items:center; background:transparent; border:0}
+.hamburger span{width:26px; height:2px; background:#fff; display:block; transition:transform .25s ease, opacity .25s ease, background .2s ease}
+.site-header[data-appearance="solid"] .hamburger span{background:#000}
+.hamburger[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.hamburger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.hamburger[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* Drawer */
+.scrim{position:fixed; inset:0; background:transparent; opacity:0; pointer-events:none; z-index:1090}
+.scrim[data-open="true"]{pointer-events:auto}
+.nav-drawer{position:fixed; inset:0 0 0 auto; width:min(360px, 94vw); background:#fff; border-left:1px solid #000; transform:translateX(100%); transition:transform .25s ease; padding:20px; z-index:1100; overflow:auto; -webkit-overflow-scrolling:touch; overscroll-behavior:contain}
+.nav-drawer[open]{transform:none}
+.nav-drawer__list{list-style:none; padding:0; margin:0}
+.nav-drawer__link{display:block; padding:14px 0; border-bottom:1px solid #000; text-decoration:none; text-transform:uppercase; font-weight:700}
+
+/* Ordine layer: hero (0) < header (1500) < scrim (1550) < drawer (1600) */
+.site-header{ z-index:1500; }
+
+/* Drawer sopra tutto */
+.nav-drawer{
+  z-index:1600;
+}
+
+/* Scrim neutro, sopra l'header ma sotto al drawer */
+.scrim{
+  background:transparent;           /* niente oscuramento */
+  z-index:1550;
+}
+
+/* Evita che l'overlay dell'hero intercetti click */
+.hero{ position:relative; z-index:0; }
+.hero__bg{ position:absolute; inset:0; z-index:0; }
+.hero::before{ pointer-events:none; }
+
+/* Quando il drawer è aperto, blocca lo scroll del body */
+body.no-scroll{ overflow:hidden; }
+

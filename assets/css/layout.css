@@ -1,0 +1,24 @@
+/* Spaziature macro per sezioni */
+.hero{position:relative; min-height:62vh; display:grid; place-items:center; text-align:center}
+.wide-cta{padding:60px 0}
+.about{padding:60px 0}
+.links-cards{padding:50px 0}
+.contact{padding:60px 0}
+.site-footer{padding:30px 0}
+
+/* Griglie comuni */
+.about__grid,
+.links-cards__grid,
+.contact__grid{display:grid; gap:30px}
+
+/* Desktop layout */
+@media (min-width: 961px){
+  .about__grid{grid-template-columns:1fr 1fr}
+  .links-cards__grid{grid-template-columns:1fr 1fr}
+  .contact__grid{grid-template-columns:1fr 1fr}
+}
+
+/* Mobile layout */
+@media (max-width: 960px){
+  /* nav si gestisce in header.css, qui solo generico se serve */
+}

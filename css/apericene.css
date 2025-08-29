@@ -1,0 +1,96 @@
+/* APERICENE — slider mobile + mosaico desktop, chips sempre visibili */
+
+:root{
+  --text:#000;
+  --gap:clamp(8px,2.4vw,12px);
+  --slide-w:82%;                /* larghezza di ogni slide su mobile */
+}
+
+#apericene .container{ overflow-x:hidden; }
+
+/* Layout base */
+.aperi{
+  display:grid;
+  gap:var(--gap);
+  grid-template-columns:1fr;     /* mobile: colonna singola */
+  align-items:start;
+}
+.aperi > *{ min-width:0; }
+
+/* Testi */
+.aperi__copy .lead{ max-width:68ch; overflow-wrap:break-word; }
+.aperi__copy .bullets{ margin:8px 0 0; padding:0; list-style:none; }
+.aperi__copy .bullets li{ position:relative; padding-left:18px; margin:6px 0; }
+.aperi__copy .bullets li::before{
+  content:""; position:absolute; left:0; top:.55em; width:10px; height:10px; background:var(--text);
+}
+
+/* Chips: SEMPRE visibili, nessuno scroll */
+.chips{
+  display:flex; flex-wrap:wrap; gap:8px; padding:8px 0; overflow:visible;
+}
+.chip{
+  border:1px solid #000; background:#fff; color:#000;
+  padding:.6rem .8rem; text-transform:uppercase; font-weight:700;
+  border-radius:0; min-height:40px; display:inline-flex; align-items:center;
+}
+
+/* ===== MOBILE (≤639px): SLIDER immagini ===== */
+.mosaic{
+  display:grid; gap:var(--gap);
+  grid-auto-flow:column; grid-auto-columns:var(--slide-w);
+  overflow-x:auto; overscroll-behavior-x:contain;
+  scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch;
+  padding-bottom:2px; max-width:100%;
+  scrollbar-width:none;
+}
+.mosaic::-webkit-scrollbar{ display:none; }
+.mosaic img{
+  width:100%; height:auto; display:block;
+  aspect-ratio:5/4; object-fit:cover;
+  border:1px solid #000; box-sizing:border-box;
+  scroll-snap-align:start;
+}
+
+/* ===== TABLET (≥640px): GRIGLIA 2 COL ===== */
+@media (min-width:640px){
+  .mosaic{
+    grid-auto-flow:initial; grid-auto-columns:initial; overflow-x:visible;
+    display:grid; gap:var(--gap);
+    grid-template-columns:repeat(2, minmax(0,1fr));
+  }
+  .mosaic img{ aspect-ratio:4/3; }
+}
+
+/* ===== DESKTOP (≥960px): MOSAICO COMPATTO SU 2 RIGHE ===== */
+@media (min-width:960px){
+  .aperi{ grid-template-columns:minmax(0,5fr) minmax(0,7fr); }
+
+  .mosaic{
+    display:grid; gap:var(--gap);
+    grid-template-columns:repeat(6, minmax(0,1fr));
+  }
+
+  /* Disposizione su due righe (A grande, B/C destra, D sotto A) */
+  .mosaic .a{ grid-column:1 / span 4; grid-row:1 / span 2; }
+  .mosaic .b{ grid-column:5 / span 2; grid-row:1 / span 1; }
+  .mosaic .c{ grid-column:5 / span 2; grid-row:2 / span 1; }
+  .mosaic .d{ grid-column:1 / span 4; grid-row:3 / span 1; }
+
+  /* Mostra MENO immagini: nascondo la quinta per mantenere due righe pulite */
+  .mosaic .e { display:none; }
+  .mosaic .d { display:none; }
+
+  .mosaic img{ aspect-ratio:4/3; }
+}
+
+/* CTA fluide su telefoni stretti */
+.aperi__copy .actions{ display:flex; gap:8px; flex-wrap:wrap; }
+@media (max-width:420px){
+  .aperi__copy .actions .btn{ flex:1 1 auto; justify-content:center; }
+}
+
+/* Focus visibile */
+.chip:focus-visible, .aperi a:focus-visible, .aperi button:focus-visible{
+  outline:2px solid #000; outline-offset:2px;
+}

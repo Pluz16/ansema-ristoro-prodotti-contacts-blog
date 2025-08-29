@@ -1,0 +1,107 @@
+/* ========== MENU (Ristoro) ========== */
+.menu{ background:#fff; border-top:1px solid #000; border-bottom:1px solid #000; }
+.menu .container{ max-width:1024px; margin-inline:auto; padding:clamp(16px,3vw,28px) clamp(12px,3vw,16px); }
+
+/* Head */
+.menu__head{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:8px; margin-bottom:12px; }
+.section__title{ margin:0; line-height:1; font-size:clamp(22px,3.6vw,28px); }
+.menu__date{ margin:0; font-size:.95rem; opacity:.9 }
+
+/* Tabs */
+.menu__tabs{ display:flex; gap:8px; margin:8px 0 14px; flex-wrap:wrap; }
+.menu__tab{
+  -webkit-appearance:none; appearance:none; cursor:pointer;
+  border:1px solid #000; background:#fff; color:#000; padding:.55rem .9rem;
+  text-transform:uppercase; font-weight:700; border-radius:0; letter-spacing:.02em;
+}
+.menu__tab:is(:focus-visible){ outline:2px dashed #62849b; outline-offset:2px; }
+.menu__tab.is-active,[aria-selected="true"].menu__tab{ background:#62849b; color:#fff; }
+
+/* Panels */
+.menu__panel{ margin-top:10px; }
+.menu__grid{
+  display:flex; flex-direction:column; gap:12px; /* >>> verticale in tutte le viste */
+}
+
+/* Course block */
+.menu__course{
+  border:1px solid #000; background:#fff; padding:12px; display:grid; gap:8px;
+}
+.menu__course h3{
+  margin:0; font-size:1.05rem; text-transform:uppercase; letter-spacing:.04em;
+}
+
+/* Items: colonna singola ovunque; su desktop 2 colonne senza cambiare la verticalità dei blocchi */
+.menu__items{ list-style:none; margin:0; padding:0; columns:1; column-gap:20px; }
+@media(min-width:980px){
+  .menu__items{ columns:2; }
+}
+.menu__items li{
+  position:relative; padding-left:16px; margin:.25rem 0; break-inside:avoid;
+}
+.menu__items li::before{ content:"—"; position:absolute; left:0; top:0; }
+
+/* Foot */
+.menu__foot{ margin-top:12px; display:flex; gap:10px; flex-wrap:wrap; }
+.btn{ border-radius:0; }
+.btn--accent{ background:#62849b; color:#fff; border:1px solid #000; }
+.btn--accent:hover{ filter:contrast(1.1); }
+.btn--ghost{ background:#fff; color:#000; border:1px solid #000; }
+
+/* Allergeni */
+.menu__allergens{
+  margin-top:16px; border:1px solid #000; padding:10px; background:#fff;
+}
+.menu__allergens > summary{
+  cursor:pointer; font-weight:700; text-transform:uppercase;
+}
+.menu__allergens > summary:focus-visible{ outline:2px dashed #62849b; outline-offset:2px; }
+
+/* Spaziature responsive coerenti */
+@media(min-width:1200px){
+  .menu .container{ padding:28px 16px; }
+}
+
+/* Meta (data + CTA Prezzi) allineati a destra */
+.menu__meta{ display:flex; align-items:center; gap:10px; }
+.menu__meta .menu__date{ margin:0; }
+
+/* h3 centrati nei blocchi corso */
+.menu__course h3{ text-align:center; }
+
+/* bottone piccolo per “Prezzi” nell’header del menu */
+.btn--sm{ padding:.35rem .7rem; font-size:.9rem; line-height:1; }
+
+
+/* === Override: piatti centrati e colonna singola su tutte le viste === */
+
+/* Centra i contenuti del blocco corso */
+.menu__course{
+  justify-items:center; /* centra h3 + lista dentro il box */
+}
+
+/* Lista piatti: sempre 1 colonna, centrata e leggibile */
+.menu__items{
+  columns:1 !important;           /* forza colonna unica anche su desktop */
+  text-align:center;              /* testo centrato */
+  max-width: 60ch;                /* misura leggibile */
+  margin-inline:auto;             /* centra la lista nel box */
+}
+
+/* Riga piatto: rimuovi indent + bullet a trattino in linea */
+.menu__items li{
+  padding-left:0;                 /* niente indent */
+  margin:.35rem 0;                /* respirano meglio */
+  break-inside:avoid;             /* evita split riga in stampa/colonne future */
+}
+
+/* Il trattino diventa parte del testo (centrabile) */
+.menu__items li::before{
+  content:"— ";
+  position:static;                /* non assoluto, così segue il centraggio */
+}
+
+/* (se già non presente) h3 centrato */
+.menu__course h3{
+  text-align:center;
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "slug": "antipasto-zucchine",
+    "titolo": "Antipasto di zucchine",
+    "peso": "315g (sgocciolato 250g)",
+    "categoria": [
+      "conserve",
+      "antipasti"
+    ],
+    "ingredienti": [
+      "zucchine",
+      "aceto",
+      "olio extra vergine di oliva",
+      "cipollotti",
+      "salvia",
+      "zucchero",
+      "sale"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 5 giorni.",
+    "nutrizione": "Per 100g: 828 kJ / 225 kcal; Grassi 21 g (saturi 3 g); Carboidrati 7,3 g (zuccheri 7,1 g); Proteine 1,4 g; Sale 5,3 g.",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Barattolo: vetro; PAP 29 Etichetta: carta. Verifica le disposizioni del tuo Comune.",
+    "img": "assets/prod-1.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": true
+  },
+  {
+    "slug": "composta-mirtilli",
+    "titolo": "Composta di Mirtilli",
+    "peso": "320g",
+    "categoria": [
+      "composte",
+      "conserve"
+    ],
+    "ingredienti": [
+      "mirtilli",
+      "zucchero",
+      "succo e scorza di limone"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 10 giorni.",
+    "nutrizione": "Per 100g: 619 kJ / 146 kcal; Grassi 0 g; Carboidrati 35 g (zuccheri 29 g); Proteine 0 g; Sale 0 g.",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Vetro; PAP 29 Carta. Verifica le disposizioni del tuo Comune.",
+    "img": "assets/prod-2.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": true
+  },
+  {
+    "slug": "composta-ramassin",
+    "titolo": "Composta di Ramassin",
+    "peso": "320g",
+    "categoria": [
+      "composte",
+      "conserve"
+    ],
+    "ingredienti": [
+      "prugne ramassin",
+      "zucchero",
+      "succo e scorza di limone"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 10 giorni.",
+    "nutrizione": "Per 100g: 619 kJ / 146 kcal; Grassi 0 g; Carboidrati 35 g (zuccheri 29 g); Proteine 0 g; Sale 0 g.",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Vetro; PAP 29 Carta.",
+    "img": "assets/prod-3.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": false
+  },
+  {
+    "slug": "ramassin-sciroppati",
+    "titolo": "Ramassin Sciroppati",
+    "peso": "350g",
+    "categoria": [
+      "conserve",
+      "sciroppati"
+    ],
+    "ingredienti": [
+      "prugne ramassin",
+      "zucchero"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 10 giorni.",
+    "nutrizione": "Vedi etichetta.",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Vetro; PAP 29 Carta.",
+    "img": "assets/prod-4.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": true
+  },
+  {
+    "slug": "pomodorini-gialli-naturale",
+    "titolo": "Pomodorini gialli al naturale",
+    "peso": "320g",
+    "categoria": [
+      "conserve",
+      "pomodori"
+    ],
+    "ingredienti": [
+      "pomodorini gialli"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 5 giorni.",
+    "nutrizione": "Per 100g: 179 kJ / 42 kcal; Carboidrati 5,6 g (zuccheri 4,8 g); Proteine 2 g; Sale 0 g.",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Vetro; PAP 29 Carta.",
+    "img": "assets/prod-5.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": true
+  },
+  {
+    "slug": "pomodori-pelati",
+    "titolo": "Pomodori pelati",
+    "peso": "380g",
+    "categoria": [
+      "conserve",
+      "pomodori"
+    ],
+    "ingredienti": [
+      "pomodori",
+      "sale",
+      "basilico"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 5 giorni.",
+    "nutrizione": "Per 100g: 179 kJ / 42 kcal; Carboidrati 5,6 g; Proteine 2 g; Sale 0,4 g.",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Vetro; PAP 29 Carta.",
+    "img": "assets/prod-6.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": false
+  },
+  {
+    "slug": "antipasto-melanzane",
+    "titolo": "Antipasto di melanzane",
+    "peso": "315g (sgocciolato 280g)",
+    "categoria": [
+      "conserve",
+      "antipasti"
+    ],
+    "ingredienti": [
+      "melanzane",
+      "olio extra vergine di oliva",
+      "aceto",
+      "basilico",
+      "sale"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 5 giorni.",
+    "nutrizione": "Per 100g: 226 kJ / 54 kcal; Grassi 4 g; Carboidrati 2,5 g; Proteine 1,2 g; Sale 1,8 g.",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Vetro; PAP 29 Carta.",
+    "img": "assets/prod-7.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": true
+  },
+  {
+    "slug": "composta-pomodorini-gialli",
+    "titolo": "Composta di pomodorini gialli",
+    "peso": "320g",
+    "categoria": [
+      "composte",
+      "conserve"
+    ],
+    "ingredienti": [
+      "pomodorini gialli",
+      "cipolle",
+      "zucchero",
+      "olio extra vergine di oliva",
+      "basilico",
+      "sale"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 5 giorni.",
+    "nutrizione": "Per 100g: 226 kJ / 54 kcal…",
+    "vuoto_a_rendere": "Vasetto con vuoto a rendere: cauzione 3,00€ inclusa nel prezzo. Restituisci il vaso pulito: la prossima volta paghi 5,00€.",
+    "raccolta": "GL 70 Vetro; PAP 29 Carta.",
+    "img": "assets/prod-8.jpg",
+    "prezzo": {
+      "full": 8.0,
+      "deposit": 3.0,
+      "refill": 5.0,
+      "currency": "EUR"
+    },
+    "featured": false
+  },
+  {
+    "slug": "sciroppo-sambuco",
+    "titolo": "Sciroppo di Fiori di Sambuco",
+    "peso": "200ml",
+    "categoria": [
+      "sciroppi"
+    ],
+    "ingredienti": [
+      "zucchero",
+      "acqua",
+      "fiori di sambuco freschi",
+      "succo e scorza di limone"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto S.N.C., Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 15 giorni.",
+    "nutrizione": "Per 100g: 1030 kJ / 246 kcal; Carboidrati 58 g (zuccheri 58 g).",
+    "vuoto_a_rendere": "Bottiglia con vuoto a rendere: cauzione 0,50€ inclusa. Restituendo la bottiglia paghi 4,00€ sul riacquisto.",
+    "raccolta": "GL 70 Vetro — C/FE 91 Capsula: metallo.",
+    "img": "assets/prod-3.jpg",
+    "prezzo": {
+      "full": 4.5,
+      "deposit": 0.5,
+      "refill": 4.0,
+      "currency": "EUR"
+    },
+    "featured": true
+  },
+  {
+    "slug": "succo-fragola",
+    "titolo": "Succo di fragola",
+    "peso": "200ml",
+    "categoria": [
+      "succhi"
+    ],
+    "ingredienti": [
+      "fragole",
+      "zucchero",
+      "succo di limone"
+    ],
+    "produttore": "Ansema Società Semplice Agricola in C.le Terrico Sotto 1, Chiaverano (TO).",
+    "conservazione": "Dopo l’apertura conservare nel frigorifero (0-4°C) e consumare entro 4 giorni.",
+    "nutrizione": "Per 100g: 186 kJ / 44 kcal…",
+    "vuoto_a_rendere": "Bottiglia con vuoto a rendere: cauzione 0,50€ inclusa nel prezzo. Restituisci la bottiglia pulita: dalla prossima volta paghi solo 3,00€.",
+    "raccolta": "GL 70 Vetro — C/FE 91 Capsula: metallo.",
+    "img": "assets/prod-5.jpg",
+    "prezzo": {
+      "full": 3.5,
+      "deposit": 0.5,
+      "refill": 3.0,
+      "currency": "EUR"
+    },
+    "featured": false
+  }
+]

@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta name="robots" content="noindex,nofollow">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ansema — Ristoro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/apericene.css">
+  <link rel="stylesheet" href="css/social.css">
+  <link rel="stylesheet" href="css/menu.css">
+
+</head>
+<body>
+
+<header class="site-header" data-appearance="on-hero" role="banner">
+  <div class="site-header__inner">
+    <button id="menu-toggle" class="hamburger" aria-controls="nav-drawer" aria-expanded="false" aria-label="Apri menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="/" class="brand" aria-label="Homepage Ansema">
+      <img src="/assets/logo-ansema.svg" alt="Ansema" width="220" height="40">
+    </a>
+  </div>
+</header>
+
+<div id="scrim" class="scrim" aria-hidden="true"></div>
+<nav id="nav-drawer" class="nav-drawer" aria-label="Menu principale" role="dialog" aria-modal="true">
+  <ul class="nav-drawer__list">
+    <li><a class="nav-drawer__link" href="/">Home</a></li>
+    <li><a class="nav-drawer__link" href="/index.html">Ristoro</a></li>
+    <li><a class="nav-drawer__link" href="/prodotti.html">Prodotti</a></li>
+    <li><a class="nav-drawer__link" href="/contacts.html">Contatti</a></li>
+  </ul>
+  <div style="margin-top:12px">
+    <a class="btn btn--accent" href="https://wa.me/393000000000?text=Prenotazione%20Ansema" target="_blank" rel="noopener">Prenota WhatsApp</a>
+  </div>
+</nav>
+
+<main>
+  <!-- HERO -->
+  <section id="hero" class="hero" aria-label="Sezione introduttiva">
+    <div class="hero__bg" style="background-image:url('/assets/hero.jpg')"></div>
+    <div class="container hero__content">
+      <span class="kicker">Ristoro Bioculturale</span>
+      <h1>Cucina <strong>botanica</strong> e stagionale</h1>
+      <p class="lead">Materia prima locale, tecniche essenziali, <strong>filiera corta</strong>. Qui il cibo racconta il <strong>territorio</strong>.</p>
+      <div class="actions">
+        <a class="btn btn--accent" href="https://wa.me/393000000000?text=Prenotazione%20Ristoro" target="_blank" rel="noopener">Prenota</a>
+        <a class="btn btn--ghost" href="/contatti.html">Contatti</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NAV SECTIONS -->
+  <div class="nav-sections">
+    <div class="container nav-sections__row">
+      <strong>Naviga:</strong>
+      <a href="#filosofia" aria-current="true">Ristoro</a>
+      <a href="#menu">Menù</a>
+      <a href="#ristoro">Bevande</a>
+      <a href="#apericene">Apericene</a>
+      <a href="#eventi">Eventi</a>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <section id="filosofia" class="section intro">
+    <div class="container">
+      <h2>Filosofia culinaria</h2>
+      <p>Una cucina di <strong>ricerca</strong> concreta: pochi ingredienti, processi puliti, tempo rispettato. Lavoriamo con <strong>erbe spontanee</strong>, fermentazioni controllate e trasformazioni minime. Il risultato è un piatto leggibile, sincero, legato al <a href="/territorio.html">territorio</a>.</p>
+      <p>Condividiamo saperi nel nostro <a href="/laboratorio.html">laboratorio</a> e durante <a href="/attivita.html">attività</a> pubbliche. L’obiettivo è qualità accessibile, senza estetizzazioni superflue.</p>
+    </div>
+  </section>
+
+  <!-- MENÙ -->
+  <section id="menu" class="section menu" aria-labelledby="menu-title">
+  <div class="container">
+    <header class="menu__head">
+      <h2 id="menu-title" class="section__title">Menù del giorno</h2>
+      <div class="menu__meta">
+        <p class="menu__date">Dal <time datetime="2025-07-11">11.07.2025</time> al <time datetime="2025-07-14">14.07.2025</time></p>
+        
+      </div>
+    </header>
+
+    <div class="menu__tabs" role="tablist" aria-label="Seleziona menù">
+      <button class="menu__tab is-active" role="tab" aria-selected="true" aria-controls="menu-panel-pranzo" id="menu-tab-pranzo" data-tab="pranzo" tabindex="0">Pranzo</button>
+      <button class="menu__tab" role="tab" aria-selected="false" aria-controls="menu-panel-cena" id="menu-tab-cena" data-tab="cena" tabindex="-1">Cena</button>
+    </div>
+
+    <div class="menu__panel" id="menu-panel-pranzo" role="tabpanel" aria-labelledby="menu-tab-pranzo">
+      <div class="menu__grid">
+        <article class="menu__course"><h3>Antipasti</h3><ul class="menu__items"><li>Flan di bistorta, crema di toma</li><li>Bavarese al parmigiano, melanzana, confit</li></ul></article>
+        <article class="menu__course"><h3>Primi</h3><ul class="menu__items"><li>Zuppa di erbe spontanee</li><li>Gnocchi di mais, bietole</li></ul></article>
+        <article class="menu__course"><h3>Secondi</h3><ul class="menu__items"><li>Uova al tegame, verdure arrosto</li><li>Legumi in umido, pane croccante</li></ul></article>
+        <article class="menu__course"><h3>Dolci</h3><ul class="menu__items"><li>Crostata rustica</li><li>Mousse fondente <strong>*</strong></li></ul></article>
+      </div>
+    </div>
+
+    <div class="menu__panel" id="menu-panel-cena" role="tabpanel" aria-labelledby="menu-tab-cena" hidden>
+      <div class="menu__grid">
+        <article class="menu__course"><h3>Antipasti</h3><ul class="menu__items"><li>Verdure alla brace, emulsione di erbe</li><li>Formaggi canavesani, chutney</li></ul></article>
+        <article class="menu__course"><h3>Primi</h3><ul class="menu__items"><li>Risotto alle erbe di campo</li><li>Pasta fresca, crema di toma</li></ul></article>
+        <article class="menu__course"><h3>Secondi</h3><ul class="menu__items"><li>Polenta morbida, funghi e fonduta <strong>*</strong></li><li>Verdure ripiene</li></ul></article>
+        <article class="menu__course"><h3>Dolci</h3><ul class="menu__items"><li>Panna cotta al fieno</li><li>Torta di mele</li></ul></article>
+      </div>
+    </div>
+
+    <!-- CTA fisse, sempre visibili a prescindere dal tab -->
+    <div class="menu__foot">
+      <a class="btn btn--accent" href="https://wa.me/393331112222" target="_blank" rel="noopener">Prenota WhatsApp</a>
+      <a class="btn btn--ghost" href="#ristoro">Vai alle bevande</a>
+      <a class="btn btn--ghost btn--sm" href="#ristoro">Prezzi</a>
+    </div>
+
+    <details class="menu__allergens">
+      <summary>Allergeni e informazioni (Reg. UE 1169/2011)</summary>
+      <p>Ingredienti/allergeni disponibili su richiesta. Possibili <strong>tracce</strong> per contaminazione crociata. I piatti con <strong>*</strong> possono includere ingredienti congelati/abbattuti o rigenerati.</p>
+    </details>
+  </div>
+</section>
+
+
+  <section id="ristoro" class="section ristoro"
+  data-menu-url="assets/ansema-menu-ristoro.json"
+  data-wine-url="assets/ansema-vini-estate-2025.json"
+  data-bevande-url="assets/ansema-bevande.json"
+  aria-labelledby="ristoro-title">
+  <div class="container">
+    <header class="ristoro__head">
+      <h2 id="ristoro-title">Ristoro — Prezzi, Vini e Bevande</h2>
+      <div class="tabs" role="tablist" aria-label="Seleziona contenuto">
+        <button class="tab is-active" role="tab" aria-selected="true" data-view="prezzi">Prezzi</button>
+        <button class="tab" role="tab" aria-selected="false" data-view="vini">Carta dei vini</button>
+        <button class="tab" role="tab" aria-selected="false" data-view="bevande">Bevande</button>
+      </div>
+    </header>
+
+    <!-- BAR FILTRI (riempita via JS in base alla vista) -->
+    <div id="filterbar" class="filterbar" role="group" aria-label="Filtri"></div>
+
+    <!-- CONTAINER LISTE -->
+    <div id="grid" class="grid" aria-live="polite"></div>
+
+    <!-- CTA dopo contenuti -->
+    <div class="cta-band">
+      <div class="cta-band__inner">
+        <h3>Serve aiuto o vuoi prenotare?</h3>
+        <div class="cta-band__actions">
+          <a class="btn btn--accent" href="https://wa.me/393000000000?text=Info%20Ristoro" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--ghost" href="/contatti.html">Tutti i contatti</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIALOG INFO accessibile -->
+  <div id="info-dialog" class="info" role="dialog" aria-modal="true" aria-labelledby="info-title" hidden>
+    <div class="info__box" role="document">
+      <header class="info__head">
+        <h3 id="info-title">Dettagli</h3>
+        <button class="info__close" aria-label="Chiudi">×</button>
+      </header>
+      <div id="info-body" class="info__body"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Include i file -->
+<link rel="stylesheet" href="css/ristoro-filters.css">
+<script src="js/ristoro-filters.js" defer></script>
+
+
+  <!-- SOCIAL -->
+<!-- SOCIAL -->
+<section id="social" class="section social" aria-labelledby="social-title">
+  <div class="container">
+    <header class="social__head">
+      <span class="kicker">Rimani aggiornato</span>
+      <h2 id="social-title">Seguici: novità, raccolti, eventi</h2>
+      <p class="lead">Condividiamo solo ciò che conta: disponibilità stagionali, lavorazioni, date degli eventi.</p>
+    </header>
+
+    <ul class="social__list" role="list">
+      <li>
+        <a class="social__item" href="https://instagram.com/ansema" target="_blank" rel="noopener" aria-label="Instagram di Ansema">
+          <span class="icon" aria-hidden="true">
+            <!-- Instagram (monocromo, brand accent) -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5a5.5 5.5 0 1 1 0 11.001 5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 .001 7.001A3.5 3.5 0 0 0 12 9.5zM17.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+          </span>
+          <span class="social__text">
+            <strong class="social__label">@ansema</strong>
+            <span class="social__hint">Instagram</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="social__item" href="https://facebook.com/ansema" target="_blank" rel="noopener" aria-label="Facebook di Ansema">
+          <span class="icon" aria-hidden="true">
+            <!-- Facebook (monocromo, brand accent) -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M13 3h4a1 1 0 0 1 1 1v3h-3a2 2 0 0 0-2 2v3h4l-1 4h-3v6h-4v-6H7v-4h3V9a4 4 0 0 1 4-4z"/>
+            </svg>
+          </span>
+          <span class="social__text">
+            <strong class="social__label">Ansema</strong>
+            <span class="social__hint">Facebook</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="social__item" href="/newsletter.html" aria-label="Iscriviti alla newsletter di Ansema">
+          <span class="icon" aria-hidden="true">
+            <!-- Mail/Newsletter (monocromo, brand accent) -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M3 5h18a1 1 0 0 1 1 1v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a1 1 0 0 1 1-1zm1.2 2l7.6 5.1a2 2 0 0 0 2.4 0L21.8 7H4.2z"/>
+            </svg>
+          </span>
+          <span class="social__text">
+            <strong class="social__label">Newsletter</strong>
+            <span class="social__hint">Aggiornamenti periodici</span>
+          </span>
+        </a>
+      </li>
+    </ul>
+
+    <p class="social__note">Se vuoi rimanere aggiornato sulle novità, ci trovi qui <span aria-hidden="true">✷</span></p>
+  </div>
+</section>
+
+
+
+
+  <!-- APERICENE -->
+  <section id="apericene" class="section">
+    <div class="container aperi">
+      <div class="aperi__copy">
+        <h2>Apericene</h2>
+        <p class="lead">Assaggi di cucina <strong>vegetale</strong>, pane caldo, conserve della casa. Ideale per gruppi piccoli.</p>
+        <div class="chips" aria-label="Opzioni veloci">
+          <span class="chip">Base · €18</span>
+          <span class="chip">Con degustazione · €24</span>
+          <span class="chip">Senza glutine</span>
+          <span class="chip">Analcolico</span>
+        </div>
+        <ul class="bullets">
+          <li>Ingredienti <strong>stagionali</strong> e locali</li>
+          <li>Possibilità di <strong>menù condiviso</strong></li>
+          <li>Pane e fermentati della casa</li>
+        </ul>
+        <div class="actions" style="margin-top:12px">
+          <a
+    class="btn btn--ghost"
+    href="#ristoro"
+    data-jump="prezzi:apericena"
+    aria-label="Vai ai prezzi dell'apericena nella sezione Ristoro"
+  >
+    Apericena · prezzi & formula
+  </a>
+
+          <a class="btn btn--accent" href="https://wa.me/393000000000?text=Prenotazione%20Apericena" target="_blank" rel="noopener">Prenota WhatsApp</a>
+          <a class="btn btn--ghost" href="/contatti.html">Tutti i contatti</a>
+        </div>
+      </div>
+      <div class="mosaic" aria-label="Galleria visiva apericene">
+        <img class="a" src="assets/ansema33.jpg" alt="Tavolo conviviale">
+        <img class="b" src="assets/ansema34.jpg" alt="Pane della casa">
+        <img class="c" src="assets/ansema42.jpg" alt="Verdure di stagione">
+        <img class="d" src="assets/erbdom124.jpg" alt="Conserve">
+        <img class="e" src="assets/aperi-5.jpg" alt="Dettagli di lavorazione">
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTI -->
+  <section id="eventi" class="section eventi" aria-labelledby="tit-eventi">
+    <div class="container">
+      <h2 id="tit-eventi" class="section__title">Eventi</h2>
+      <ul class="events" role="list">
+        <li class="event-card">
+          <figure class="event-card__media">
+            <img src="assets/erbdom17.jpg" alt="Raccolta e degustazione di erbe spontanee">
+            <figcaption class="visually-hidden">Immagine: erbe spontanee</figcaption>
+          </figure>
+          <div class="event-card__body">
+            <h3 class="event-card__title">Erbe spontanee in cucina</h3>
+            <p class="event-card__meta"><time datetime="2025-09-14">Dom 14 Set 2025</time> • 16:00–18:30 • Ivrea</p>
+            <p>Uscita sul territorio e piccola <strong>degustazione</strong>. Prenotazione obbligatoria.</p>
+            <div class="event-card__actions">
+              <a class="btn btn--accent" href="https://wa.me/393000000000?text=Prenotazione%20evento%20Erbe%20spontanee" target="_blank" rel="noopener">Prenota</a>
+              <a class="btn btn--ghost" href="/eventi/erbe-spontanee.html" aria-label="Dettagli evento Erbe spontanee in cucina">Dettagli</a>
+            </div>
+          </div>
+        </li>
+        <li class="event-card">
+          <figure class="event-card__media">
+            <img src="assets/erbdom124.jpg" alt="Cena tematica dedicata alle fermentazioni">
+            <figcaption class="visually-hidden">Immagine: fermentazioni</figcaption>
+          </figure>
+          <div class="event-card__body">
+            <h3 class="event-card__title">Cena tematica — fermentazioni</h3>
+            <p class="event-card__meta"><time datetime="2025-10-04">Sab 4 Ott 2025</time> • 20:00 • Ristoro Ansema</p>
+            <p>Processi <strong>controllati</strong>, piatti essenziali, menu dedicato.</p>
+            <div class="event-card__actions">
+              <a class="btn btn--accent" href="https://wa.me/393000000000?text=Prenotazione%20cena%20fermentazioni" target="_blank" rel="noopener">Prenota</a>
+              <a class="btn btn--ghost" href="/eventi/fermentazioni.html" aria-label="Dettagli cena tematica fermentazioni">Dettagli</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <p class="note-legal"><strong>Informazioni:</strong> calendario soggetto a variazioni; foto illustrative.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="section" style="padding:28px 0; border-top:1px solid #000; background:#fff">
+  <div class="container">
+    <small>© 2025 Ansema — Ristoro Bioculturale. <a href="/privacy.html">Privacy</a></small>
+  </div>
+</footer>
+
+<script src="js/app.js" defer></script>
+<script src="js/apericene.js" defer></script>
+<script src="js/menu.js" defer></script>
+<script src="js/social.js" defer></script>
+</body>
+</html>

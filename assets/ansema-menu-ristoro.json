@@ -1,0 +1,316 @@
+{
+  "title": "Ansema — Menu Ristoro",
+  "version": "v1",
+  "updated_at": "2025-08-28",
+  "currency": "EUR",
+  "sections": [
+    {
+      "id": "bevande",
+      "title": "Bevande",
+      "groups": [
+        {
+          "title": "Succhi",
+          "items": [
+            {
+              "name": "Succhi di frutta di stagione di nostra produzione",
+              "price": 3.5
+            },
+            {
+              "name": "Acqua e fiori di sambuco, con limone, menta e sciroppo di nostra produzione",
+              "price": 2.0
+            },
+            {
+              "name": "Succo con Serra Dry (spumante metodo Martinotti, Cantina Sociale della Serra)",
+              "price": 4.5
+            }
+          ]
+        },
+        {
+          "title": "Aperitivi",
+          "items": [
+            {
+              "name": "Aperitivo della casa",
+              "note": "alcolico o analcolico",
+              "price": 5.0
+            },
+            {
+              "name": "Vermouth agricolo alle 7 artemisie",
+              "producer": "Cascina La Gra",
+              "price": 4.0
+            }
+          ]
+        },
+        {
+          "title": "Birre",
+          "items": [
+            {
+              "name": "Birra artigianale alla spina",
+              "producer": "Birrificio Un Terzo",
+              "variants": [
+                {
+                  "size": "Piccola",
+                  "price": 3.5
+                },
+                {
+                  "size": "Media",
+                  "price": 5.0
+                }
+              ]
+            },
+            {
+              "name": "Birra agricola in bottiglia",
+              "volume_cl": 33,
+              "producer": "Az. Agricola Lavinozona",
+              "price": 4.5
+            }
+          ]
+        },
+        {
+          "title": "Vini",
+          "items": [
+            {
+              "name": "Vino della casa",
+              "note": "bianco o rosso, al bicchiere",
+              "price": 2.0
+            },
+            {
+              "name": "Bollicina canavesana metodo classico",
+              "price": 4.0
+            },
+            {
+              "name": "Le bottiglie della settimana dei giovani vignaioli canavesani",
+              "price_min": 20.0,
+              "price_max": 28.0,
+              "unit": "bottiglia"
+            }
+          ],
+          "footnote": "Chiedi allo staff per conoscere le proposte del momento"
+        },
+        {
+          "title": "Caffè",
+          "items": [
+            {
+              "name": "Moka della casa",
+              "price": 1.0
+            },
+            {
+              "name": "Espresso Eticru arabica",
+              "price": 1.5
+            },
+            {
+              "name": "Caffè di cicoria",
+              "price": 2.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "merenda_sinoira",
+      "title": "La merenda sinoira",
+      "groups": [
+        {
+          "title": "Da stuzzicare",
+          "items": [
+            {
+              "name": "Le nostre patate novelle al forno",
+              "price": 4.0
+            },
+            {
+              "name": "Tomino stagionato con trito di erbe aromatiche e spontanee",
+              "price": 1.8,
+              "unit": "cad."
+            },
+            {
+              "name": "Salse spontanee",
+              "options": [
+                {
+                  "label": "1 salsa",
+                  "price": 0.8
+                },
+                {
+                  "label": "4 salse",
+                  "price": 2.5
+                }
+              ],
+              "note": "maio all’aglio orsino, ketchup alla rosa canina, salsa al rafano, bagnetto verde alle spontanee"
+            },
+            {
+              "name": "Pane e crackers agricoli",
+              "price": 1.5
+            }
+          ]
+        },
+        {
+          "title": "Taglieri",
+          "items": [
+            {
+              "name": "Dall’Orto",
+              "description": "verdure di stagione in diverse consistenze e cotture",
+              "price": 13.0
+            },
+            {
+              "name": "Dal Pascolo",
+              "description": "formaggi locali, miele di flora alpina Presidio Slow Food (Apicoltura Le Querce), composta della settimana",
+              "price": 18.0
+            },
+            {
+              "name": "Dal Bosco",
+              "description": "affettati da maiali allevati consapevolmente (Az. Agr. Parva Domus e La Schiavenza), miele di bosco bio (Apicoltura Le Querce), composta della settimana",
+              "price": 24.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pranzo",
+      "title": "Pranzo",
+      "note": "Il nostro staff ti racconterà il menu della settimana",
+      "items": [
+        {
+          "name": "Antipasti",
+          "price": 10.0
+        },
+        {
+          "name": "Primi piatti",
+          "price": 12.0
+        },
+        {
+          "name": "Secondi con contorno (vegetariani)",
+          "price": 14.0
+        },
+        {
+          "name": "Secondi di carne del territorio, allevata consapevolmente, con contorno",
+          "price": 18.0
+        },
+        {
+          "name": "Insalata mista dell’orto",
+          "price": 5.0
+        },
+        {
+          "name": "Dolci",
+          "price_range": [
+            5.0,
+            6.0
+          ]
+        },
+        {
+          "name": "Pane e crackers agricoli",
+          "price": 1.5
+        },
+        {
+          "name": "Acqua di Chiaverano",
+          "price": 0.0,
+          "note": "sempre gratuita"
+        }
+      ],
+      "beverage_refs": [
+        "bevande.birre",
+        "bevande.vini",
+        "bevande.caffè"
+      ]
+    },
+    {
+      "id": "cena",
+      "title": "Cena",
+      "note": "Il nostro staff ti racconterà il menu della settimana",
+      "items": [
+        {
+          "name": "Antipasti",
+          "price": 12.0
+        },
+        {
+          "name": "Primi piatti",
+          "price": 14.0
+        },
+        {
+          "name": "Secondi con contorno (vegetariani)",
+          "price_range": [
+            15.0,
+            16.0
+          ]
+        },
+        {
+          "name": "Secondi di carne del territorio, allevata consapevolmente, con contorno",
+          "price": 20.0
+        },
+        {
+          "name": "Dolci",
+          "price_range": [
+            6.0,
+            8.0
+          ]
+        },
+        {
+          "name": "Acqua di Chiaverano",
+          "price": 0.0,
+          "note": "sempre gratuita"
+        },
+        {
+          "name": "Coperto",
+          "price": 2.0
+        }
+      ],
+      "extra_groups": [
+        {
+          "title": "Vini e birre",
+          "items": [
+            {
+              "name": "Birra artigianale alla spina",
+              "producer": "Birrificio Un Terzo",
+              "variants": [
+                {
+                  "size": "Piccola",
+                  "price": 3.5
+                },
+                {
+                  "size": "Media",
+                  "price": 5.0
+                }
+              ]
+            },
+            {
+              "name": "Birra agricola in bottiglia",
+              "producer": "Az. Agricola Lavinozona",
+              "price": 4.0
+            },
+            {
+              "name": "I vini della settimana dei giovani vignaioli canavesani",
+              "price_by_glass": 4.0,
+              "bottle_range": [
+                20.0,
+                28.0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Caffè e digestivi",
+          "items": [
+            {
+              "name": "Espresso Eticru arabica",
+              "price": 1.5
+            },
+            {
+              "name": "Caffè di cicoria",
+              "price": 2.0
+            },
+            {
+              "name": "Infuso digestivo alle erbe",
+              "price": 2.5
+            },
+            {
+              "name": "Vermouth agricolo alle 7 artemisie",
+              "price": 4.0
+            },
+            {
+              "name": "Grappa al miele e digestivi artigianali",
+              "price": 3.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

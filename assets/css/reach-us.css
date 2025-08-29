@@ -1,0 +1,14 @@
+.reach-us{padding:60px 0; background:#fff; border-block:1px solid #e8e8e8}
+.reach-us__grid{display:grid; gap:24px}
+.reach-us__info .section-subtitle{margin-top:10px}
+.reach-us__list{list-style:none; padding:0; margin:10px 0 16px}
+.reach-us__list li{margin:0 0 8px}
+.reach-us__cta{display:flex; gap:10px; flex-wrap:wrap; margin:6px 0 10px}
+.reach-us__maps{display:flex; gap:10px; flex-wrap:wrap}
+.reach-us__map{margin:0}
+.reach-us__map img{display:block; width:100%; height:280px; object-fit:cover; border:1px solid #e8e8e8; border-radius:12px; box-shadow:var(--shadow)}
+
+@media (min-width:961px){
+  .reach-us__grid{grid-template-columns:1.1fr .9fr}
+  .reach-us__map img{height:340px}
+}

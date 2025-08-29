@@ -1,0 +1,23 @@
+
+.hero{
+  position:relative; min-height:72vh; color:#fff;
+  display:flex; align-items:flex-end;
+  --hero-brightness:.58; --hero-contrast:1.12; --hero-sat:.90;
+  --scrim-top:.72; --scrim-bottom:.92; --diag:.28;
+}
+.hero__bg{position:absolute; inset:0; background-size:cover; background-position:center;
+  filter: brightness(var(--hero-brightness)) contrast(var(--hero-contrast)) saturate(var(--hero-sat));}
+.hero::before{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,var(--scrim-top)) 0%, rgba(0,0,0,var(--scrim-bottom)) 85%),
+    linear-gradient(120deg, rgba(0,0,0,var(--diag)) 10%, rgba(0,0,0,0) 55%);
+}
+.hero__content{position:relative; padding-block: clamp(28px, 8vw, 72px);}
+.hero__content .kicker{display:inline-block; padding:.25rem .5rem; border:1px solid #fff; letter-spacing:.08em; text-transform:uppercase; font-weight:700}
+.hero__content h1{margin:.5rem 0 .25rem; font-size:clamp(34px, 7.2vw, 96px); line-height:.95; word-break:break-word}
+.hero__content .lead{opacity:.98; max-width:68ch}
+.hero__content .actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
+@media (max-width:420px){
+  .hero__content .actions .btn{flex:1 1 auto; justify-content:center}
+}

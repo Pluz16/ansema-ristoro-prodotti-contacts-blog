@@ -1,0 +1,4 @@
+.site-footer{border-top:1px solid #e8e8e8; background:#f9f9f9}
+.site-footer__grid{display:flex; justify-content:space-between; align-items:flex-start; gap:20px}
+.site-footer__note{color:var(--muted); margin:8px 0 0}
+.footer-links{list-style:none; padding:0; margin:0; display:flex; gap:14px}

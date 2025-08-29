@@ -1,0 +1,22 @@
+.contact__grid{grid-template-columns:1fr; gap:30px}
+@media (min-width: 961px){ .contact__grid{grid-template-columns:1fr 1fr} }
+
+.contact-list{list-style:none; padding:0; margin:0}
+.contact-list li{margin:0 0 6px}
+
+/* Form */
+.form{
+  background:var(--white); border:1px solid #e8e8e8; border-radius:16px; padding:18px; box-shadow:var(--shadow)
+}
+.form__row{margin:0 0 14px}
+.form__row--inline{display:flex; align-items:flex-start; gap:10px}
+label{display:block; font-weight:700; margin:0 0 6px}
+input[type="text"],input[type="email"],textarea{
+  width:100%; padding:10px 12px; border:1px solid #d0d0d0; border-radius:10px; font:inherit; background:#fafafa;
+}
+input:focus, textarea:focus{outline:2px solid var(--acc); outline-offset:2px; background:#fff}
+.checkbox{display:flex; gap:8px; align-items:flex-start}
+.form__actions{display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-top:8px}
+.form__note{font-size:.9rem; color:var(--muted); margin:0}
+.form__error{color:#b00020; font-size:.9rem; min-height:1.1em}
+.hp{position:absolute; left:-9999px}

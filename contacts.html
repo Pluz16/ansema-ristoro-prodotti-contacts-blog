@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Contatti | Ansema – Ristoro Bioculturale</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contattaci per prenotazioni, collaborazioni e informazioni su Ansema – Ristoro Bioculturale.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/layout.css">
+<link rel="stylesheet" href="assets/css/header.css">
+<link rel="stylesheet" href="assets/css/hero.css">
+<link rel="stylesheet" href="assets/css/cta.css">
+<link rel="stylesheet" href="assets/css/about.css">
+<link rel="stylesheet" href="assets/css/cards.css">
+<link rel="stylesheet" href="assets/css/contact.css">
+<link rel="stylesheet" href="assets/css/footer.css">
+<link rel="stylesheet" href="assets/css/reach-us.css">
+
+</head>
+<body class="theme-ansema">
+  <!-- HEADER -->
+<header class="site-header" data-appearance="on-hero" role="banner" aria-label="Intestazione">
+  <div class="site-header__inner container">
+    <!-- Hamburger / Drawer toggle -->
+    <button id="menu-toggle" class="hamburger" aria-controls="nav-drawer" aria-expanded="false" aria-label="Apri menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Brand -->
+    <a href="/index.html" class="brand" aria-label="Homepage Ansema">
+      <img src="./assets/images/logo-ansema.svg" alt="Ansema" width="220" height="40">
+    </a>
+  </div>
+</header>
+
+<!-- Drawer + scrim -->
+<div id="scrim" class="scrim" aria-hidden="true"></div>
+<nav id="nav-drawer" class="nav-drawer" aria-label="Menu principale" role="dialog" aria-modal="true">
+  <ul class="nav-drawer__list">
+    <li><a class="nav-drawer__link" href="/index.html">Home</a></li>
+    <li><a class="nav-drawer__link" href="/index.html">Ristoro</a></li>
+    <li><a class="nav-drawer__link" href="/prodotti.html">Prodotti</a></li>
+    <li><a class="nav-drawer__link" href="/contacts.html">Contatti</a></li>
+  </ul>
+
+  <div style="margin-top:12px">
+    <a class="btn btn--accent" href="https://wa.me/393000000000?text=Prenotazione%20Ansema" target="_blank" rel="noopener">Prenota WhatsApp</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero" aria-label="Sezione introduttiva">
+  <div class="hero__bg" style="background-image:url('./assets/images/people-01.jpg')"></div>
+  <div class="container hero__content">
+    <span class="kicker">Ristoro Bioculturale</span>
+    <h1>Contattaci</h1>
+    <p class="lead">
+      Prenotazioni, collaborazioni, informazioni sui nostri <strong>prodotti</strong> e sul <strong>ristoro</strong>.
+    </p>
+    <div class="actions">
+      <a class="btn btn--accent" href="tel:+393331112222">Chiama ora</a>
+      <a class="btn btn--ghost" href="https://wa.me/393331112222" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn--ghost" href="mailto:info@ansema.it">Email</a>
+    </div>
+  </div>
+</section>
+
+  <section class="reach-us" aria-label="Dove siamo e come raggiungerci">
+  <div class="container reach-us__grid">
+    <div class="reach-us__info">
+      <h2 class="section-title">Dove siamo</h2>
+      <p><strong>Indirizzo</strong><br>
+         <span class="js-address">[AGGIORNA INDIRIZZO ESATTO QUI]</span>
+      </p>
+      <h3 class="section-subtitle">Come arrivare</h3>
+      <ul class="reach-us__list">
+        <li><strong>Auto</strong> — Uscita/autostrada più vicina, poi direzione [località]. Parcheggio: [info].</li>
+        <li><strong>Treno/Bus</strong> — Stazione/fermata consigliata [nome], poi [x] min a piedi.</li>
+        <li><strong>Bici/Piede</strong> — Percorso consigliato via [traccia sicura / ciclabile].</li>
+      </ul>
+      <div class="reach-us__cta">
+        <a class="btn btn--primary" href="tel:+393331112222">Chiama ora</a>
+        <a class="btn btn--ghost" href="https://wa.me/393331112222" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div class="reach-us__maps">
+        <!-- Sostituisci {LAT},{LNG} o l'indirizzo urlencoded -->
+        <a class="btn btn--link" href="https://www.google.com/maps/dir/?api=1&destination={LAT},{LNG}" target="_blank" rel="noopener">Apri in Google Maps →</a>
+        <a class="btn btn--link" href="https://maps.apple.com/?daddr={LAT},{LNG}" target="_blank" rel="noopener">Apri in Apple Maps →</a>
+        <a class="btn btn--link" href="https://waze.com/ul?ll={LAT},{LNG}&navigate=yes" target="_blank" rel="noopener">Apri in Waze →</a>
+      </div>
+    </div>
+
+    <figure class="reach-us__map">
+      <img src="./assets/images/map.png" alt="Mappa per raggiungerci — zona Ansema">
+      <figcaption>Per la navigazione, usa i link sopra. Nessun tracciamento esterno su questa pagina.</figcaption>
+    </figure>
+  </div>
+</section>
+
+
+  <!-- CTA ampia -->
+  <section class="wide-cta" role="region" aria-label="Call to action principale">
+    <div class="container wide-cta__inner">
+      <h2 class="wide-cta__title">Vuoi organizzare un evento, una serata a tema o una visita in cucina?</h2>
+      <p class="wide-cta__text">Siamo aperti a progetti che valorizzano materia prima, persone e territorio.</p>
+      <a class="btn btn--accent" href="#contatti">Proponi la tua idea</a>
+    </div>
+  </section>
+
+  <!-- Chi siamo / Storia (breve) -->
+  <section class="about" aria-label="Chi siamo e la nostra storia">
+  <div class="container about__grid">
+    <div class="about__col">
+      <h2 class="section-title">Chi siamo</h2>
+      <p>Ansema è un laboratorio aperto: cucina botanica, orti vivi, trasformazioni essenziali. Lavoriamo con stagionalità e filiere trasparenti per un’esperienza sobria e concreta.</p>
+
+      <h3 class="section-subtitle">Parole chiave</h3>
+      <ul class="about-keywords">
+        <li><strong>Stagionalità</strong> — Menù essenziali che seguono l’orto vivo.</li>
+        <li><strong>Filiere</strong> — Relazioni con piccoli produttori, processi tracciabili.</li>
+        <li><strong>Cucina documentaristica</strong> — Gesti reali, materia viva, zero estetizzazioni.</li>
+        <li><strong>Territorio</strong> — Erbe spontanee, paesaggio, comunità.</li>
+      </ul>
+
+      <h3 class="section-subtitle">Timeline</h3>
+      <ul class="about-timeline">
+        <li><span class="year">1999</span> Avvio esperienza agricola biologica (Il Granello di Senape).</li>
+        <li><span class="year">2010–2023</span> Trasformazioni, rete di micro-produttori, divulgazione.</li>
+        <li><span class="year">2024</span> Nasce Ansema – Ristoro Bioculturale.</li>
+        <li><span class="year">Oggi</span> Offerta sobria: piatti stagionali, prodotti e attività formative.</li>
+      </ul>
+    </div>
+
+    <div class="about__col">
+      <h3 class="section-subtitle">La nostra storia</h3>
+      <p>Dal campo alla tavola: mani al lavoro, processi semplici e cura del dettaglio. Ogni piatto racconta una pratica, ogni prodotto un paesaggio.</p>
+      <div class="about-gallery">
+        <figure class="about-photo"><img src="./assets/images/ansema.jpg" alt="Mani al lavoro in cucina"></figure>
+        <figure class="about-photo"><img src="./assets/images/territory-01.jpg" alt="Dettagli del territorio con erbe spontanee"></figure>
+        <figure class="about-photo"><img src="./assets/images/food-01.jpg" alt="Preparazione di un piatto in corso"></figure>
+        <figure class="about-photo"><img src="./assets/images/product-01.jpg" alt="Trasformati e conserve in uso reale"></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Link a Prodotti & Menu -->
+  <section class="links-cards" role="region" aria-label="Esplora Prodotti e Menu">
+    <div class="container links-cards__grid">
+      <article class="card">
+        <div class="card__media" style="background-image:url('./assets/images/prodotti.jpg');" aria-hidden="true"></div>
+        <div class="card__body">
+          <h3 class="card__title">Prodotti</h3>
+          <p class="card__text">Materie prime e trasformati selezionati. Scopri disponibilità e pacchi regalo.</p>
+          <a class="btn btn--link" href="/prodotti.html">Vai ai Prodotti →</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media" style="background-image:url('./assets/images/casale.jpeg');" aria-hidden="true"></div>
+        <div class="card__body">
+          <h3 class="card__title">Menu</h3>
+          <p class="card__text">Proposte settimanali essenziali, guidate dalla stagionalità.</p>
+          <a class="btn btn--link" href="/index.html">Scopri il Menu →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact-actions" aria-label="Per cosa contattarci">
+  <div class="container contact-actions__grid">
+    <article class="ca-card">
+      <h3 class="ca-card__title">Prenotazioni</h3>
+      <p class="ca-card__text">Chiama o scrivici per prenotare tavolo o gruppi.</p>
+      <div class="ca-card__cta">
+        <a class="btn btn--primary" href="tel:+393331112222">Chiama ora</a>
+        <a class="btn btn--ghost" href="https://wa.me/393331112222" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </article>
+
+    <article class="ca-card">
+      <h3 class="ca-card__title">Collaborazioni</h3>
+      <p class="ca-card__text">Eventi, serate a tema, didattica su erbe e territorio.</p>
+      <div class="ca-card__cta">
+        <a class="btn btn--accent" href="mailto:info@ansema.it">Proponi un’idea</a>
+      </div>
+    </article>
+
+    <article class="ca-card">
+      <h3 class="ca-card__title">Forniture & Prodotti</h3>
+      <p class="ca-card__text">Trasformati, conserve, sciroppi. Info su disponibilità.</p>
+      <div class="ca-card__cta">
+        <a class="btn btn--link" href="/prodotti.html">Vai ai Prodotti →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container site-footer__grid">
+      <div>
+        <a class="brand brand--inverse" href="/"><img src="./assets/images/logo-ansema.svg" alt="Ansema" height="28"></a>
+        <p class="site-footer__note">© Ansema – Ristoro Bioculturale</p>
+      </div>
+      <nav aria-label="Link legali">
+        <ul class="footer-links">
+          <li><a href="/privacy.html">Privacy</a></li>
+          <li><a href="/cookie.html">Cookie</a></li>
+          <li><a href="/note-legali.html">Note legali</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="ans.js" defer></script>
+</body>
+</html>

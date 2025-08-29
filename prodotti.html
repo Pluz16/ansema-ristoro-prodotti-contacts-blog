@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ansema — Prodotti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base-prodotti.css">
+  <link rel="stylesheet" href="css/header-prodotti.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+<header class="site-header" data-appearance="on-hero">
+  <div class="site-header__inner">
+    <button id="menu-toggle" class="hamburger" aria-controls="nav-drawer" aria-expanded="false" aria-label="Apri menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="/" class="brand" aria-label="Homepage Ansema">
+      <img src="/assets/logo-ansema.svg" alt="Ansema" width="200" height="36">
+    </a>
+  </div>
+</header>
+
+<nav id="nav-drawer" class="nav-drawer" aria-label="Menu principale" role="dialog" aria-modal="true">
+  <ul class="nav-drawer__list">
+    <li><a class="nav-drawer__link" href="/index.html">Home</a></li>
+    <li><a class="nav-drawer__link" href="/index.html">Ristoro</a></li>
+    <li><a class="nav-drawer__link" href="/prodotti.html" aria-current="page">Prodotti</a></li>
+    <li><a class="nav-drawer__link" href="/contacts.html">Contatti</a></li>
+  </ul>
+</nav>
+
+<main>
+  <!-- HERO -->
+  <section id="hero" class="hero" aria-label="Sezione introduttiva">
+    <div class="hero__bg" style="background-image:url('/assets/hero-prodotti.jpg')"></div>
+    <div class="container hero__content">
+      <span class="kicker">Prodotti</span>
+      <h1>Conserve, fermentati, <strong>ingredienti puri</strong></h1>
+      <p class="lead">Piccole produzioni, materia prima locale, etichette leggibili.</p>
+      <div class="actions">
+        <a class="btn btn--accent" href="https://wa.me/393000000000?text=Info%20prodotti" target="_blank" rel="noopener">Scrivici</a>
+        <a class="btn btn--ghost" href="#catalogo">Vai al catalogo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VUOTO A RENDERE -->
+  <section id="vuoto-a-rendere" class="section" aria-labelledby="vr-title">
+  <div class="container vr-box">
+    <div class="vr-inner">
+      <h2 id="vr-title">Vuoto a rendere</h2>
+      <p class="vr-lead">
+        Il prezzo esposto <strong>include la cauzione</strong> del contenitore. Restituendo il vuoto paghi meno la volta successiva.
+      </p>
+
+      <div class="vr-grid" role="list">
+        <!-- VASETTI (conserve) -->
+        <article class="vr-card" role="listitem">
+          <h3 class="vr-h3">Conserve in vasetto</h3>
+          <ul class="vr-list">
+            <li><strong>Prezzo con vasetto</strong>: 8,00€ (cauzione 3,00€ inclusa)</li>
+            <li><strong>Al riacquisto restituendo il vasetto</strong>: 5,00€</li>
+          </ul>
+          <p class="vr-note">Vasetti integri, senza etichetta, puliti (lavaggio caldo).</p>
+        </article>
+
+        <!-- BOTTIGLIE (succhi) -->
+        <article class="vr-card" role="listitem">
+          <h3 class="vr-h3">Succhi in bottiglia</h3>
+          <ul class="vr-list">
+            <li><strong>Prezzo con bottiglia</strong>: 3,50€ (cauzione 0,50€ inclusa)</li>
+            <li><strong>Al riacquisto restituendo la bottiglia</strong>: 3,00€</li>
+          </ul>
+          <p class="vr-note">Bottiglia integra, senza etichetta, ben risciacquata.</p>
+        </article>
+
+        <!-- BOTTIGLIE (sciroppo sambuco) -->
+        <article class="vr-card" role="listitem">
+          <h3 class="vr-h3">Sciroppi in bottiglia</h3>
+          <ul class="vr-list">
+            <li><strong>Prezzo con bottiglia</strong>: 4,50€ (cauzione 0,50€ inclusa)</li>
+            <li><strong>Al riacquisto restituendo la bottiglia</strong>: 4,00€</li>
+          </ul>
+          <p class="vr-note">Bottiglia integra, senza etichetta, ben risciacquata.</p>
+        </article>
+      </div>
+
+      <div class="actions">
+        <a class="btn btn--accent" href="https://wa.me/393000000000?text=Info%20vuoto%20a%20rendere" target="_blank" rel="noopener">Chiedi info</a>
+        <a class="btn btn--ghost" href="#catalogo">Vai al catalogo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CATALOGO -->
+  <section id="catalogo" class="section catalog" aria-labelledby="cat-title">
+    <div class="container">
+      <header class="catalog__head">
+        <h2 id="cat-title">Catalogo</h2>
+        <div class="controls">
+          <button id="cat-prev" aria-label="Scorri indietro">◀︎</button>
+          <button id="cat-next" aria-label="Scorri avanti">▶︎</button>
+        </div>
+      </header>
+
+      <div class="filterbar" role="group" aria-label="Filtra prodotti">
+        <button class="chip" data-cat="tutti" aria-pressed="true">Tutti</button>
+        <button class="chip" data-cat="conserve">Conserve</button>
+        <button class="chip" data-cat="composte">Composte</button>
+        <button class="chip" data-cat="sciroppi">Sciroppi</button>
+        <button class="chip" data-cat="succhi">Succhi</button>
+        <button class="chip" data-cat="pomodori">Pomodori</button>
+        <button class="chip" data-cat="antipasti">Antipasti</button>
+        <span class="count" aria-live="polite">(<span id="prod-count">0</span> visibili)</span>
+      </div>
+
+      <!-- JS inserisce qui la featuredbar -->
+      <div class="catalog__track" id="catalog-track" aria-label="Elenco prodotti"></div>
+
+      <div class="cta-band">
+  <div class="cta-band__inner container">
+    <h3>Pronto a ordinare?</h3>
+    <p>Scrivici su <strong>WhatsApp</strong> o visita la pagina <a href="/contatti.html"><strong>Contatti</strong></a>.</p>
+    <div class="cta-band__actions">
+      <a class="btn btn--accent" href="https://wa.me/393000000000?text=Ordini%20prodotti" target="_blank" rel="noopener">Ordina su WhatsApp</a>
+      <a class="btn btn--ghost" href="/contatti.html">Tutti i contatti</a>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!-- PACCHI REGALO -->
+  <section class="section">
+    <div class="container">
+      <div class="gift">
+        <div class="gift__media">
+          <img src="assets/hero-prodotti.jpg" alt="Pacchi regalo coming soon">
+          <span class="badge">Coming Soon</span>
+        </div>
+        <div class="gift__body" style="padding:12px">
+          <h2>Pacchi regalo</h2>
+          <p>Selezioni di <strong>stagione</strong> per le feste: conserve, fermentati, sciroppi e spezie.</p>
+          <div class="actions">
+            <a class="btn btn--accent" href="https://wa.me/393000000000?text=Info%20pacchi%20regalo" target="_blank" rel="noopener">Prenota info</a>
+            <a class="btn btn--ghost" href="#catalogo">Torna al catalogo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATERIE PRIME -->
+  <section class="section">
+    <div class="container materie">
+      <div class="materie__copy">
+        <h2>Materie prime e lavorazioni</h2>
+        <p>Usiamo <strong>ingredienti locali</strong> e tecniche essenziali: fermentazioni lattiche, essiccazioni dolci, macerazioni.</p>
+        <p>Trasparenza: su richiesta forniamo <strong>schede tecniche</strong> e allergeni (Reg. UE 1169/2011).</p>
+        <div class="actions">
+          <a class="btn btn--accent" href="https://wa.me/393000000000?text=Materie%20prime" target="_blank" rel="noopener">Chiedi info</a>
+          <a class="btn btn--ghost" href="/filosofia.html">La nostra filosofia</a>
+        </div>
+      </div>
+      <figure class="materie__media">
+        <img src="assets/erbdom150.jpg" alt="Materie prime al lavoro">
+      </figure>
+    </div>
+  </section>
+
+<section id="blog" class="section" aria-labelledby="blog-title">
+  <div class="container">
+    <h2 id="blog-title">Appunti dal Ristoro</h2>
+
+    <!-- FILTRI A CHIP + SEARCH -->
+    <div class="blog-toolbar" role="group" aria-label="Filtri blog">
+      <div class="blog-chips" id="blog-chips">
+        <!-- chip “Tutti” attivo di default -->
+        <button class="chip is-active" data-cat="">Tutti</button>
+        <button class="chip" data-cat="Eventi">Eventi</button>
+        <button class="chip" data-cat="News">News</button>
+        <button class="chip" data-cat="Ricette">Ricette</button>
+        <button class="chip" data-cat="Territorio">Territorio</button>
+      </div>
+      <label class="blog-search">
+        <span class="sr-only">Cerca</span>
+        <input id="blog-search" type="search" placeholder="Cerca nel blog…" inputmode="search" />
+      </label>
+    </div>
+
+    <!-- LISTA -->
+    <div id="blog-list" class="blog-grid" role="list" aria-live="polite"></div>
+
+    <div class="blog-actions">
+      <button id="blog-load-more" class="blog-btn" type="button">Mostra altri</button>
+    </div>
+  </div>
+
+  <!-- OVERLAY ARTICOLO -->
+  <div id="blog-modal" class="blog-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="blog-modal-title">
+    <div class="blog-modal__backdrop" data-close></div>
+    <div class="blog-modal__dialog" role="document">
+      <header class="blog-modal__header">
+        <h3 id="blog-modal-title" class="blog-modal__title">Titolo</h3>
+        <button class="blog-modal__close" aria-label="Chiudi" data-close>×</button>
+      </header>
+      <div class="blog-modal__meta" id="blog-modal-meta"></div>
+      <div class="blog-modal__media"><img id="blog-modal-cover" alt=""></div>
+      <article class="blog-modal__content" id="blog-modal-content"></article>
+
+      <section class="blog-modal__related" id="blog-modal-related" aria-label="Articoli correlati"></section>
+      <footer class="blog-modal__footer">
+        <button class="blog-btn" data-close>Chiudi</button>
+      </footer>
+    </div>
+  </div>
+</section>
+
+
+
+
+</main>
+
+<footer class="section" style="padding:28px 0; border-top:1px solid #000; background:#fff">
+  <div class="container">
+    <small>© 2025 Ansema — Prodotti. <a href="/privacy.html">Privacy</a></small>
+  </div>
+</footer>
+
+<script src="js/app-prodotti.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/blog.js" defer></script>
+</body>
+</html>

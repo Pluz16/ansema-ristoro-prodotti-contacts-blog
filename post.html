@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Articolo • Ansema</title>
+
+  <!-- Font Arimo -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS globali (se presenti) -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+
+  <!-- CSS del singolo post -->
+  <link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+
+  <!-- Header minimale (opzionale) -->
+  <header class="site-header-simple" role="banner">
+    <div class="container">
+      <a href="/prodotti" class="logo-link" aria-label="Torna ai prodotti">Ansema</a>
+    </div>
+  </header>
+
+  <!-- Main: SCOPE post -->
+  <main id="post" class="section" aria-live="polite" itemscope itemtype="https://schema.org/BlogPosting">
+    <div class="container post-wrap">
+
+      <!-- Azioni iniziali -->
+      <div class="post-actions">
+        <a id="post-back" class="post-btn" href="/prodotti">← Torna ai prodotti</a>
+      </div>
+
+      <!-- Titolo + meta -->
+      <h1 id="post-title" class="post-title" itemprop="headline">Articolo</h1>
+      <div id="post-meta" class="post-meta"></div>
+
+      <!-- Hero/Cover -->
+      <div class="post-media">
+        <img id="post-cover" class="post-hero" alt="" itemprop="image">
+      </div>
+
+      <!-- Contenuto -->
+      <article id="post-content" class="post-content" itemprop="articleBody">
+        <noscript>Attiva JavaScript per leggere il contenuto dell’articolo.</noscript>
+      </article>
+
+      <!-- Correlati -->
+      <section id="post-related" class="post-related" aria-label="Articoli correlati"></section>
+
+      <!-- Navigazione prev / blog / next -->
+      <nav class="post-nav" aria-label="Navigazione articolo">
+        <a id="post-prev" class="post-btn prev is-ghost" href="#">← Precedente</a>
+        <a class="post-btn is-primary" href="/blog">Torna al blog</a>
+        <a id="post-next" class="post-btn next is-accent" href="#">Successivo →</a>
+      </nav>
+
+    </div>
+  </main>
+
+  <!-- Footer minimale (opzionale) -->
+  <footer class="site-footer-simple" role="contentinfo">
+    <div class="container">
+      <small>© Ansema • Ristoro Bioculturale</small>
+    </div>
+  </footer>
+
+  <!-- JS del singolo post -->
+  <script src="js/post.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "title": "Bevande — Ristoro",
+  "currency": "EUR",
+  "items": [
+    { "name": "Succhi di frutta di stagione (nostra produzione)", "scope": "analcolici", "category": "succhi", "price": 3.5 },
+    { "name": "Acqua e fiori di sambuco con limone e menta", "scope": "analcolici", "category": "sciroppi", "note": "sciroppo di nostra produzione", "price": 2.0 },
+    { "name": "Moka della casa", "scope": "analcolici", "category": "caffè", "price": 1.0 },
+    { "name": "Espresso Eticru arabica", "scope": "analcolici", "category": "caffè", "price": 1.5 },
+    { "name": "Caffè di cicoria", "scope": "analcolici", "category": "caffè", "price": 2.0 },
+
+    { "name": "Succo con Serra Dry (spumante metodo Martinotti)", "scope": "alcolici", "category": "vino", "wine_color": "spumante", "price": 4.5, "producer": "Cantina Sociale della Serra" },
+    { "name": "Vino della casa (al bicchiere)", "scope": "alcolici", "category": "vino", "wine_color": "bianco", "price": 2.0 },
+    { "name": "Vino della casa (al bicchiere)", "scope": "alcolici", "category": "vino", "wine_color": "rosso", "price": 2.0 },
+
+    { "name": "Birra artigianale alla spina", "scope": "alcolici", "category": "birra", "variants": [
+      { "size": "Piccola", "price": 3.5 }, { "size": "Media", "price": 5.0 }
+    ], "producer": "Birrificio Un Terzo" },
+    { "name": "Birra agricola in bottiglia 33 cl", "scope": "alcolici", "category": "birra", "price": 4.5, "producer": "Az. Agricola Lavinozona" },
+
+    { "name": "Vermouth agricolo alle 7 artemisie", "scope": "alcolici", "category": "vermouth", "price": 4.0, "producer": "Cascina La Gra" },
+    { "name": "Grappa al miele e digestivi artigianali", "scope": "alcolici", "category": "grappa", "price": 3.0 }
+  ]
+}

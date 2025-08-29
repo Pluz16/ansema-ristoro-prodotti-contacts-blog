@@ -1,0 +1,75 @@
+/* ============ ANSEMA — Ristoro UI (filtri + cards) ============ */
+:root{
+  --bg:#eeeeee; --text:#000; --accent:#62849b;
+}
+.ristoro .container{ width:min(1100px,90%); margin:0 auto; }
+.ristoro__head{ display:grid; gap:12px; margin-bottom:10px; }
+.ristoro__head h2{ margin:0; }
+
+/* Tabs */
+.tabs{ display:flex; gap:8px; flex-wrap:wrap; }
+.tab{
+  border:1px solid #000; background:#fff; padding:.55rem .8rem; font-weight:700;
+  text-transform:uppercase; border-radius:0; cursor:pointer;
+}
+.tab.is-active{ background:#000; color:#fff; }
+
+/* Filterbar */
+.filterbar{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 18px; align-items:center; }
+.chip{
+  border:1px solid #000; background:#fff; padding:.45rem .7rem; font-weight:700; text-transform:uppercase; border-radius:0; cursor:pointer;
+}
+.chip[aria-pressed="true"]{ background:#000; color:#fff; }
+.select{ border:1px solid #000; background:#fff; padding:.45rem .7rem; border-radius:0; }
+
+/* Grid */
+.grid{ display:grid; gap:12px; }
+@media (min-width:720px){ .grid{ grid-template-columns:repeat(2, minmax(0,1fr)); } }
+@media (min-width:1024px){ .grid{ grid-template-columns:repeat(3, minmax(0,1fr)); } }
+
+/* Card generica */
+.card{ border:1px solid #000; background:#fff; display:grid; grid-template-rows:auto 1fr auto; }
+.card__media img{ width:100%; aspect-ratio:4/3; object-fit:cover; border-bottom:1px solid #000; display:block; }
+.card__body{ padding:10px; display:grid; gap:6px; }
+.card__title{ margin:0; font-size:1.1rem; line-height:1.2; }
+.card__meta{ font-size:.95rem; opacity:.9; }
+.card__foot{ display:flex; align-items:center; justify-content:space-between; gap:8px; padding:10px; border-top:1px solid #000; }
+.price{ font-weight:700; white-space:nowrap; }
+.btn{ padding:.5rem .8rem; border-radius:0; font-weight:700; text-transform:uppercase; cursor:pointer; }
+.btn--ghost{ background:#fff; border:1px solid #000; color:#000; }
+.btn--accent{ background:var(--accent); border:1px solid var(--accent); color:#fff; }
+
+/* Badge piccoli (colore vino, tipo bevanda) */
+.badge{ border:1px solid #000; padding:.15rem .4rem; font-size:.85rem; font-weight:700; text-transform:uppercase; background:#fff; }
+
+/* CTA band */
+.cta-band{ background:#000; color:#fff; border-top:1px solid #000; border-bottom:1px solid #000; margin-top:16px; }
+.cta-band__inner{ display:flex; gap:12px; align-items:center; justify-content:space-between; padding:14px; }
+.cta-band__actions{ display:flex; gap:8px; flex-wrap:wrap; }
+.cta-band .btn--ghost{ background:transparent; border-color:#fff; color:#fff; }
+
+/* Dialog info */
+.info{ position:fixed; inset:0; background:rgba(0,0,0,.55); display:grid; place-items:center; z-index:1200; }
+.info[hidden]{ display:none; }
+.info__box{ width:min(720px, 92vw); background:#fff; border:1px solid #000; }
+.info__head{ display:flex; align-items:center; justify-content:space-between; gap:8px; padding:10px; border-bottom:1px solid #000; }
+.info__close{ width:32px; height:32px; border:1px solid #000; background:#fff; font-weight:700; cursor:pointer; border-radius:0; }
+.info__body{ padding:12px; display:grid; gap:10px; }
+.info__body h4{ margin:0; }
+.info__body .ing-list{ margin:0; padding-left:18px; }
+.info__body .kv{ display:grid; gap:6px; }
+.info__body .kv div{ display:grid; grid-template-columns:160px 1fr; gap:8px; }
+
+/* Row style per voci di menu (senza immagine) */
+.row{ border:1px solid #000; background:#fff; display:grid; grid-template-columns:1fr auto; gap:8px; padding:10px; align-items:center; }
+.row__title{ font-weight:700; }
+.row__meta{ opacity:.9; font-size:.95rem; }
+.row__right{ display:flex; gap:8px; align-items:center; }
+
+
+/* Card senza immagine (solo testo) */
+.card.card--text .card__body{ padding-top:12px; }
+.card.card--text .card__foot{ border-top:1px solid #000; }
+
+/* Filtri allineati meglio quando compaiono select */
+.filterbar .stack{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; }

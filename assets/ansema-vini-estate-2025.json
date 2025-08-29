@@ -1,0 +1,109 @@
+{
+  "season": "Estate 2025",
+  "title": "Vini — Estate 2025",
+  "intro": "Ogni bottiglia è una storia, un gesto quotidiano di cura, un frammento di paesaggio che arriva fino al vostro bicchiere. I vignaioli che scegliamo coltivano con amore, sempre a mano e con rispetto. Noi li conosciamo per nome.",
+  "currency": "EUR",
+  "updated_at": "2025-08-28",
+  "items": [
+    {
+      "slug": "balmetto-terre-sparse",
+      "name": "Balmetto",
+      "style": "Spumante metodo classico",
+      "color": "bianco spumante",
+      "grapes": [
+        "Erbaluce"
+      ],
+      "producer": {
+        "name": "Terre Sparse",
+        "location": "Chiaverano"
+      },
+      "story": "Tra le pergole del Canavese, Matteo raccoglie l’uva a mano, come si faceva un tempo. Crea lo spumante nel Balmetto, luogo antico e umido, scavato nella pietra, dove il vino riposa e si affina per 18 mesi. Un gesto lento, di attenzione profonda.",
+      "method": {
+        "primary": "metodo classico",
+        "aging_months_on_lees": 18
+      },
+      "price_eur": 28,
+      "display_order": 1
+    },
+    {
+      "slug": "scelte-di-vite-cantina-366",
+      "name": "Scelte di vite",
+      "style": "Bianco fermo",
+      "color": "bianco",
+      "grapes": [
+        "Erbaluce"
+      ],
+      "producer": {
+        "name": "Cantina 366",
+        "location": "Bairo C.se"
+      },
+      "story": "Francesco lavora con precisione e ascolto. Le sue pergole di Agliè sono curate come giardini, e l’Erbaluce che ne nasce è chiaro, fresco e vibrante. È un vino che parla di passione e di luce, come il suo sguardo mentre racconta la vigna.",
+      "price_eur": 22,
+      "display_order": 2
+    },
+    {
+      "slug": "pink-servaj-alex-alberand",
+      "name": "Pink Servaj",
+      "style": "Rosato",
+      "color": "rosato",
+      "grapes": [
+        "Barbera"
+      ],
+      "producer": {
+        "name": "Alex Alberand",
+        "location": "Salassa"
+      },
+      "story": "Alex è giovane, appassionato e tenace. Ha scelto di riportare la viticoltura nel suo paese, Salassa, partendo dalle radici. I suoi vini sono sinceri, profumati e vivi. Il Pink Servaj è un rosato libero, selvatico nel nome, delicato nel cuore.",
+      "price_eur": 20,
+      "display_order": 3
+    },
+    {
+      "slug": "fuoriserie-officina-del-vino",
+      "name": "Fuoriserie",
+      "style": "Orange wine",
+      "color": "orange",
+      "grapes": [
+        "Erbaluce"
+      ],
+      "producer": {
+        "name": "Officina del Vino",
+        "location": "Settimo Rottaro"
+      },
+      "story": "Questo vino è un omaggio a un contadino che non c’è più e che ha lasciato una vigna e un soprannome: fuoriserie. Luca ha scelto di non addomesticarlo, lasciando che bucce e raspi raccontino una storia fuori dagli schemi. Per chi ama andare un po’ più in là.",
+      "price_eur": 28,
+      "display_order": 4
+    },
+    {
+      "slug": "rossofiliej-filiej",
+      "name": "Rossofiliej",
+      "style": "Uvaggio rosso",
+      "color": "rosso",
+      "grapes": [
+        "Uvaggio (varietà storiche)"
+      ],
+      "producer": {
+        "name": "Filiej",
+        "location": "Settimo Vittone"
+      },
+      "story": "Bianca e Riccardo non si definiscono vignaioli ma contadini, e nei loro terrazzamenti centenari coltivano paesaggio prima che vino. Il loro rosso è fatto a mano, passo dopo passo, su pietre e terra. Ogni bottiglia è un piccolo gesto di resistenza e bellezza.",
+      "price_eur": 26,
+      "display_order": 5
+    },
+    {
+      "slug": "porpora-officina-del-vino",
+      "name": "Porpora",
+      "style": "Rosso",
+      "color": "rosso",
+      "grapes": [
+        "Uva Rara"
+      ],
+      "producer": {
+        "name": "Officina del Vino",
+        "location": "Settimo Rottaro"
+      },
+      "story": "Luca riscopre vitigni dimenticati e li ascolta. L’uva rara è davvero rara, e lui la vinifica con gioia e rispetto. Il Porpora è fruttato, intenso ma giocoso, perfetto per stare in compagnia, tra chiacchiere, formaggi e sorrisi.",
+      "price_eur": 24,
+      "display_order": 6
+    }
+  ]
+}

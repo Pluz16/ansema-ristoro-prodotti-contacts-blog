@@ -1,0 +1,330 @@
+{
+  "key": "group_prodotti_ansema",
+  "title": "Prodotti Ansema",
+  "fields": [
+    {
+      "key": "field_slug",
+      "label": "Slug",
+      "name": "slug",
+      "type": "text",
+      "instructions": "Identificativo univoco del prodotto",
+      "required": 1,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_titolo",
+      "label": "Titolo",
+      "name": "titolo",
+      "type": "text",
+      "instructions": "",
+      "required": 1,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_peso",
+      "label": "Peso",
+      "name": "peso",
+      "type": "text",
+      "instructions": "Peso / quantità del prodotto",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_categoria",
+      "label": "Categoria",
+      "name": "categoria",
+      "type": "repeater",
+      "instructions": "Una o più categorie del prodotto",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "row",
+      "button_label": "Aggiungi categoria",
+      "sub_fields": [
+        {
+          "key": "field_categoria_item",
+          "label": "Categoria item",
+          "name": "categoria_item",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        }
+      ]
+    },
+    {
+      "key": "field_ingredienti",
+      "label": "Ingredienti",
+      "name": "ingredienti",
+      "type": "repeater",
+      "instructions": "Lista degli ingredienti",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "row",
+      "button_label": "Aggiungi ingrediente",
+      "sub_fields": [
+        {
+          "key": "field_ingrediente_item",
+          "label": "Ingrediente",
+          "name": "ingrediente_item",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        }
+      ]
+    },
+    {
+      "key": "field_produttore",
+      "label": "Produttore",
+      "name": "produttore",
+      "type": "textarea",
+      "instructions": "Dati produttore (ragione sociale, indirizzo, ecc.)",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": ""
+    },
+    {
+      "key": "field_conservazione",
+      "label": "Conservazione",
+      "name": "conservazione",
+      "type": "textarea",
+      "instructions": "Indicazioni di conservazione",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": ""
+    },
+    {
+      "key": "field_nutrizione",
+      "label": "Nutrizione",
+      "name": "nutrizione",
+      "type": "textarea",
+      "instructions": "Valori nutrizionali per 100g o simili",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": ""
+    },
+    {
+      "key": "field_vuoto_a_rendere",
+      "label": "Vuoto a rendere",
+      "name": "vuoto_a_rendere",
+      "type": "textarea",
+      "instructions": "Modalità vuoto a rendere",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": ""
+    },
+    {
+      "key": "field_raccolta",
+      "label": "Raccolta",
+      "name": "raccolta",
+      "type": "textarea",
+      "instructions": "Dettagli di raccolta/riciclaggio",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": ""
+    },
+    {
+      "key": "field_immagine",
+      "label": "Immagine",
+      "name": "immagine",
+      "type": "image",
+      "instructions": "Immagine opzionale del prodotto",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all"
+    },
+    {
+      "key": "field_prezzo_full",
+      "label": "Prezzo Full",
+      "name": "prezzo_full",
+      "type": "number",
+      "instructions": "Prezzo standard",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "step": "0.01"
+    },
+    {
+      "key": "field_prezzo_deposit",
+      "label": "Prezzo Deposit",
+      "name": "prezzo_deposit",
+      "type": "number",
+      "instructions": "Prezzo cauzione / deposito",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "step": "0.01"
+    },
+    {
+      "key": "field_prezzo_refill",
+      "label": "Prezzo Refill",
+      "name": "prezzo_refill",
+      "type": "number",
+      "instructions": "Prezzo refill / ricarica",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "step": "0.01"
+    },
+    {
+      "key": "field_currency",
+      "label": "Valuta",
+      "name": "currency",
+      "type": "text",
+      "instructions": "Es. EUR",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "EUR",
+      "placeholder": ""
+    },
+    {
+      "key": "field_featured",
+      "label": "Featured",
+      "name": "featured",
+      "type": "true_false",
+      "instructions": "Prodotto in evidenza",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": 0,
+      "ui": 1
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "page"
+      }
+    ],
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "post"
+      }
+    ],
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "prodotti"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": [],
+  "active": true,
+  "description": ""
+}

@@ -1,0 +1,66 @@
+{
+    "key": "group_piatti",
+    "title": "Dettagli Piatti",
+    "fields": [
+        {
+            "key": "field_descrizione_breve",
+            "label": "Descrizione breve",
+            "name": "descrizione_breve",
+            "type": "textarea",
+            "rows": 3
+        },
+        {
+            "key": "field_ingredienti",
+            "label": "Ingredienti principali",
+            "name": "ingredienti",
+            "type": "textarea",
+            "rows": 4
+        },
+        {
+            "key": "field_prezzo",
+            "label": "Prezzo",
+            "name": "prezzo",
+            "type": "number",
+            "step": "0.01",
+            "prepend": "€"
+        },
+        {
+            "key": "field_piatto_settimana",
+            "label": "Piatto della settimana",
+            "name": "piatto_settimana",
+            "type": "true_false",
+            "ui": 1,
+            "message": "Metti in evidenza questo piatto"
+        },
+        {
+            "key": "field_note_allergeni",
+            "label": "Note / Allergeni",
+            "name": "note_allergeni",
+            "type": "textarea",
+            "rows": 3
+        },
+        {
+            "key": "field_immagine_piatto",
+            "label": "Immagine Piatto",
+            "name": "immagine_piatto",
+            "type": "image",
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "piatti"
+            }
+        ]
+    ],
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "key": "group_menu",
+    "title": "Menù del Giorno",
+    "fields": [
+      {
+        "key": "field_data_inizio_menu",
+        "label": "Data inizio",
+        "name": "data_inizio_menu",
+        "type": "date_picker",
+        "required": 1,
+        "display_format": "d/m/Y",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_data_fine_menu",
+        "label": "Data fine",
+        "name": "data_fine_menu",
+        "type": "date_picker",
+        "required": 1,
+        "display_format": "d/m/Y",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_piatti_pranzo",
+        "label": "Piatti Pranzo",
+        "name": "piatti_pranzo",
+        "type": "relationship",
+        "post_type": ["piatti"],
+        "filters": ["search", "taxonomy"],
+        "return_format": "id",
+        "min": 0,
+        "max": 0
+      },
+      {
+        "key": "field_piatti_cena",
+        "label": "Piatti Cena",
+        "name": "piatti_cena",
+        "type": "relationship",
+        "post_type": ["piatti"],
+        "filters": ["search", "taxonomy"],
+        "return_format": "id",
+        "min": 0,
+        "max": 0
+      },
+      {
+        "key": "field_piatti_merenda",
+        "label": "Piatti Merenda",
+        "name": "piatti_merenda",
+        "type": "relationship",
+        "post_type": ["piatti"],
+        "filters": ["search", "taxonomy"],
+        "return_format": "id",
+        "min": 0,
+        "max": 0
+      },
+      {
+        "key": "field_nota_extra",
+        "label": "Nota extra",
+        "name": "nota_extra",
+        "type": "textarea",
+        "instructions": "Inserisci eventuali informazioni aggiuntive (es. allergeni, note stagionali).",
+        "required": 0,
+        "rows": 3,
+        "new_lines": "wpautop"
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "menu"
+        }
+      ]
+    ],
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "description": ""
+  }
+]

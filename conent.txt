@@ -1,0 +1,431 @@
+<main id="site-content">
+  <div class="container">
+    <h1>Tema Ansema attivo</h1>
+    <p>Se vedi questa pagina, significa che il tema funziona.</p>
+    
+<div class="wp-block-cover alignfull has-custom-content-position is-position-center-left hero" style="min-height:600px;aspect-ratio:unset;"><img fetchpriority="high" decoding="async" width="1024" height="684" class="wp-block-cover__image-background wp-image-18 size-large" alt="" src="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/hero-1024x684.jpg" data-object-fit="cover" srcset="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/hero-1024x684.jpg 1024w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/hero-300x200.jpg 300w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/hero-768x513.jpg 768w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/hero-1536x1026.jpg 1536w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/hero-2048x1367.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#696b55"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<span class="kicker">Ristoro Bioculturale</span>
+
+
+
+<h1 class="wp-block-heading hero__title">Cucina <strong>botanica</strong> e stagionale</h1>
+
+
+
+<p class="lead">Materia prima locale, tecniche essenziali, <strong>filiera corta</strong>. Qui il cibo racconta il <strong>territorio</strong>.</p>
+
+
+
+<div class="actions">
+      <a class="btn btn--accent" href="https://wa.me/393000000000?text=Prenotazione%20Ristoro" target="_blank" rel="noopener">Prenota</a>
+      <a class="btn btn--ghost" href="/contatti">Contatti</a>
+    </div>
+</div></div>
+
+
+
+<div class="nav-sections">
+  <div class="container nav-sections__row">
+    <strong>Naviga:</strong>
+    <a href="#filosofia">Ristoro</a>
+    <a href="#menu">Menù</a>
+    <a href="#ristoro">Bevande</a>
+    <a href="#apericene">Apericene</a>
+    <a href="#eventi">Eventi</a>
+  </div>
+</div>
+
+
+
+<section id="filosofia" class="section intro">
+  <div class="container">
+    <h2>Filosofia culinaria</h2>
+    <p>
+      Una cucina di <strong>ricerca</strong> concreta: pochi ingredienti, processi puliti, tempo rispettato.
+      Lavoriamo con <strong>erbe spontanee</strong>, fermentazioni controllate e trasformazioni minime.
+      Il risultato è un piatto leggibile, sincero, legato al 
+      <a href="/territorio">territorio</a>.
+    </p>
+    <p>
+      Condividiamo saperi nel nostro <a href="/laboratorio">laboratorio</a>
+      e durante <a href="/attivita">attività</a> pubbliche.
+      L’obiettivo è qualità accessibile, senza estetizzazioni superflue.
+    </p>
+  </div>
+</section>
+
+
+<p><!--?php
+/**
+ * Title: Menù del Giorno
+ * Slug: ansema/menu
+ * Categories: ansema
+ */
+?--></p>
+<p><!-- Panel PRANZO --></p>
+<p><!-- Panel CENA --></p>
+<p><!-- Panel MERENDA --></p>
+<p><!-- Panel PRANZO --></p>
+<p><!-- Panel CENA --></p>
+<p><!-- Panel MERENDA --></p>
+<p><!-- Panel PRANZO --></p>
+<p><!-- Panel CENA --></p>
+
+
+<section id="menu" class="menu section" aria-labelledby="menu-title">
+
+  <!-- Sfondo: cambia src con URL Media Library -->
+  <div class="menu__bg">
+    <img decoding="async" src="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/territory-01-scaled.jpg" alt="Sfondo menù">
+  </div>
+
+  <div class="container">
+    <header class="menu__head">
+      <h2 id="menu-title" class="section__title">Menù del giorno</h2>
+      <p class="menu__date">
+        Dal <time datetime="2025-07-11">11.07.2025</time>
+        al <time datetime="2025-07-14">14.07.2025</time>
+      </p>
+    </header>
+
+    <!-- Tabs -->
+    <div class="menu__tabs" role="tablist">
+      <button class="menu__tab is-active" data-tab="pranzo">Pranzo</button>
+      <button class="menu__tab" data-tab="cena">Cena</button>
+      <button class="menu__tab" data-tab="merenda">Merenda</button>
+    </div>
+
+    <!-- Panel PRANZO -->
+    <div class="menu__panel" id="menu-panel-pranzo">
+      <div class="menu__grid">
+        <article class="menu__course">
+          <h3>Antipasti</h3>
+          <ul class="menu__items">
+            <li>Tatin salata di cipollotto</li>
+            <li>Consistenze di zucchina</li>
+          </ul>
+        </article>
+        <article class="menu__course">
+          <h3>Primi</h3>
+          <ul class="menu__items">
+            <li>Gnocchi di ricotta affumicata</li>
+            <li>Cuciarin con battuto di cicorie</li>
+          </ul>
+        </article>
+        <article class="menu__course">
+          <h3>Secondi</h3>
+          <ul class="menu__items">
+            <li>Insalata tiepida di pollo</li>
+            <li>Zuppa fredda di primizie</li>
+<li>Zuppa fredda di primizie</li>
+          </ul>
+        </article>
+        <article class="menu__course">
+          <h3>Dolci</h3>
+          <ul class="menu__items">
+            <li>Carpaccio di pesca</li>
+            <li>Mirtilli sciroppati con gelato</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <!-- Panel CENA -->
+    <div class="menu__panel" id="menu-panel-cena" hidden="">
+      <div class="menu__grid">
+        <article class="menu__course">
+          <h3>Antipasti</h3>
+          <ul class="menu__items">
+            <li>Verdure alla brace</li>
+            <li>Formaggi canavesani</li>
+          </ul>
+        </article>
+        <article class="menu__course">
+          <h3>Primi</h3>
+          <ul class="menu__items">
+            <li>Risotto alle erbe di campo</li>
+            <li>Pasta fresca con crema di toma</li>
+          </ul>
+        </article>
+        <article class="menu__course">
+          <h3>Secondi</h3>
+          <ul class="menu__items">
+            <li>Polenta morbida e fonduta</li>
+            <li>Verdure ripiene</li>
+          </ul>
+        </article>
+        <article class="menu__course">
+          <h3>Dolci</h3>
+          <ul class="menu__items">
+            <li>Panna cotta al fieno</li>
+            <li>Torta di mele</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <!-- Panel MERENDA -->
+    <div class="menu__panel" id="menu-panel-merenda" hidden="">
+      <div class="menu__grid">
+        <article class="menu__course">
+          <h3>Piatti freddi</h3>
+          <ul class="menu__items">
+            <li>Tagliere di formaggi</li>
+            <li>Verdure di stagione</li>
+          </ul>
+        </article>
+        <article class="menu__course">
+          <h3>Dolci</h3>
+          <ul class="menu__items">
+            <li>Torta di mele rustica</li>
+            <li>Crostata di frutta</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+
+    <!-- CTA fisse -->
+    <div class="menu__foot">
+      <a class="btn btn--accent" href="https://wa.me/393331112222" target="_blank" rel="noopener">Prenota WhatsApp</a>
+      <a class="btn btn--ghost" href="#ristoro">Vai alle bevande</a>
+      <a class="btn btn--ghost btn--sm" href="#ristoro">Prezzi</a>
+    </div>
+
+    <!-- Allergeni -->
+    <details class="menu__allergens">
+      <summary>Allergeni e informazioni (Reg. UE 1169/2011)</summary>
+      <p>Ingredienti/allergeni disponibili su richiesta. Piatti con <strong>*</strong> possono includere ingredienti congelati/rigenerati.</p>
+    </details>
+  </div>
+</section>
+
+
+
+<section id="ristoro" class="section ristoro" data-menu-url="http://staging2.francescop212.sg-host.com/wp-content/themes/ansema-child/assets/data/ansema-menu-ristoro.json" data-wine-url="http://staging2.francescop212.sg-host.com/wp-content/themes/ansema-child/assets/data/ansema-vini-estate-2025.json" data-bevande-url="http://staging2.francescop212.sg-host.com/wp-content/themes/ansema-child/assets/data/ansema-bevande.json" aria-labelledby="ristoro-title">
+
+  <div class="container">
+
+    <!-- Header -->
+    <header class="ristoro__head">
+      <h2 id="ristoro-title">Ristoro — Prezzi, Vini e Bevande</h2>
+      <div class="tabs" role="tablist" aria-label="Seleziona contenuto">
+        <button class="tab is-active" role="tab" aria-selected="true" data-view="prezzi">Prezzi</button>
+        <button class="tab" role="tab" aria-selected="false" data-view="vini">Carta dei vini</button>
+        <button class="tab" role="tab" aria-selected="false" data-view="bevande">Bevande</button>
+      </div>
+    </header>
+
+    <!-- Filter bar -->
+    <div id="filterbar" class="filterbar" role="group" aria-label="Filtri"><button class="is-active">Merenda sinoira</button><button>Pranzo</button><button>Cena</button></div>
+
+    <!-- Grid dinamico -->
+    <div id="grid" class="grid" aria-live="polite"><div class="card">
+        <h3>Le nostre patate novelle al forno</h3>
+        
+        <p class="price">€4</p>
+        
+      </div><div class="card">
+        <h3>Tomino stagionato con trito di erbe aromatiche e spontanee</h3>
+        
+        <p class="price">€1.8</p>
+        
+      </div><div class="card">
+        <h3>Salse spontanee</h3>
+        <p>maio all’aglio orsino, ketchup alla rosa canina, salsa al rafano, bagnetto verde alle spontanee</p>
+        
+        <button class="btn btn--ghost btn--sm">Dettagli</button>
+      </div><div class="card">
+        <h3>Pane e crackers agricoli</h3>
+        
+        <p class="price">€1.5</p>
+        
+      </div><div class="card">
+        <h3>Dall’Orto</h3>
+        <p>verdure di stagione in diverse consistenze e cotture</p>
+        <p class="price">€13</p>
+        
+      </div><div class="card">
+        <h3>Dal Pascolo</h3>
+        <p>formaggi locali, miele di flora alpina Presidio Slow Food, composta della settimana</p>
+        <p class="price">€18</p>
+        
+      </div><div class="card">
+        <h3>Dal Bosco</h3>
+        <p>affettati consapevoli, miele di bosco bio, composta della settimana</p>
+        <p class="price">€24</p>
+        
+      </div><p class="menu-note">I prezzi possono variare in base alla disponibilità del menù giornaliero.</p></div>
+
+    <!-- CTA band -->
+    <div class="cta-band">
+      <div class="cta-band__inner">
+        <h3>Serve aiuto o vuoi prenotare?</h3>
+        <div class="cta-band__actions">
+          <a class="btn btn--accent" href="https://wa.me/393000000000?text=Info%20Ristoro" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--ghost" href="/contatti.html">Tutti i contatti</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Dialog info accessibile -->
+  <div id="info-dialog" class="info" role="dialog" aria-modal="true" aria-labelledby="info-title" hidden="">
+    <div class="info__box" role="document">
+      <header class="info__head">
+        <h3 id="info-title">Dettagli</h3>
+        <button class="info__close" aria-label="Chiudi">×</button>
+      </header>
+      <div id="info-body" class="info__body"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="eventi" class="section eventi" aria-labelledby="eventi-title">
+  <div class="container">
+    <header class="eventi__head">
+      <span class="kicker">Calendario</span>
+      <h2 id="eventi-title" class="section__title">Eventi Ansema</h2>
+      <p class="eventi__lead">Scopri le nostre iniziative: raccolti, laboratori, cene a tema.</p>
+    </header>
+
+    <ul class="events" role="list">
+              <li class="event-card">
+          <figure class="event-card__media">
+                          <img width="768" height="513" src="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/ansema-per-gaza-768x513.jpg" class="event-card__thumb wp-post-image" alt="Palestina" decoding="async" loading="lazy" srcset="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/ansema-per-gaza-768x513.jpg 768w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/ansema-per-gaza-300x200.jpg 300w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/ansema-per-gaza-1024x684.jpg 1024w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/ansema-per-gaza-1536x1026.jpg 1536w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/ansema-per-gaza-2048x1367.jpg 2048w" sizes="auto, (max-width: 768px) 100vw, 768px">                      </figure>
+          <div class="event-card__body">
+            <h3 class="event-card__title">Palestina</h3>
+                        <div class="event-card__excerpt">
+                              <p>Giornata di sensibilizzazione</p>
+                          </div>
+            <div class="event-card__actions">
+                              <a class="btn btn--ghost btn--sm" href="https://maps.app.goo.gl/1PzAtLueiThVPd7w8" target="_blank" rel="noopener">
+                  Apri mappa
+                </a>
+                                            <a class="btn btn--accent" href="https://wa.me/393318243043?text=Ciao%2C+sarei+interessato+all%27evento%3A+Palestina" target="_blank" rel="noopener">Prenota</a>
+                            <a class="btn btn--ghost" href="http://staging2.francescop212.sg-host.com/palestina/" aria-label="Dettagli evento Palestina">Dettagli</a>
+            </div>
+          </div>
+        </li>
+              <li class="event-card">
+          <figure class="event-card__media">
+                          <img width="768" height="1150" src="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/prodotti-768x1150.jpg" class="event-card__thumb wp-post-image" alt="I funghi" decoding="async" loading="lazy" srcset="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/prodotti-768x1150.jpg 768w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/prodotti-200x300.jpg 200w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/prodotti-684x1024.jpg 684w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/prodotti-1026x1536.jpg 1026w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/prodotti-1367x2048.jpg 1367w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/prodotti-scaled.jpg 1709w" sizes="auto, (max-width: 768px) 100vw, 768px">                      </figure>
+          <div class="event-card__body">
+            <h3 class="event-card__title">I funghi</h3>
+                          <p class="event-card__meta">
+                <time datetime="Settembre 27, 2025 12:00 am">
+                  Lun 15 Set 2025                </time>
+                 • 07:31              </p>
+                        <div class="event-card__excerpt">
+                              <p>Funghi porcini</p>
+                          </div>
+            <div class="event-card__actions">
+                              <a class="btn btn--ghost btn--sm" href="https://maps.app.goo.gl/1PzAtLueiThVPd7w8" target="_blank" rel="noopener">
+                  Apri mappa
+                </a>
+                                            <a class="btn btn--accent" href="https://wa.me/393318243043?text=Ciao%2C+sarei+interessato+all%27evento%3A+I+funghi" target="_blank" rel="noopener">Prenota</a>
+                            <a class="btn btn--ghost" href="http://staging2.francescop212.sg-host.com/funghi/" aria-label="Dettagli evento I funghi">Dettagli</a>
+            </div>
+          </div>
+        </li>
+              <li class="event-card">
+          <figure class="event-card__media">
+                          <img width="768" height="511" src="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/raccolta-mele-768x511.jpg" class="event-card__thumb wp-post-image" alt="Mele" decoding="async" loading="lazy" srcset="http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/raccolta-mele-768x511.jpg 768w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/raccolta-mele-300x200.jpg 300w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/raccolta-mele-1024x681.jpg 1024w, http://staging2.francescop212.sg-host.com/wp-content/uploads/2025/09/raccolta-mele.jpg 1500w" sizes="auto, (max-width: 768px) 100vw, 768px">                      </figure>
+          <div class="event-card__body">
+            <h3 class="event-card__title">Mele</h3>
+                          <p class="event-card__meta">
+                <time datetime="Settembre 19, 2025 12:00 am">
+                  Lun 15 Set 2025                </time>
+                 • 07:31              </p>
+                        <div class="event-card__excerpt">
+                              <p>Scopri di più sulla raccolta delle mele</p>
+                          </div>
+            <div class="event-card__actions">
+                              <a class="btn btn--ghost btn--sm" href="https://maps.app.goo.gl/1PzAtLueiThVPd7w8" target="_blank" rel="noopener">
+                  Apri mappa
+                </a>
+                                            <a class="btn btn--accent" href="https://wa.me/393318243043?text=Ciao%2C+sarei+interessato+all%27evento%3A+Mele" target="_blank" rel="noopener">Prenota</a>
+                            <a class="btn btn--ghost" href="http://staging2.francescop212.sg-host.com/raccolta-mele/" aria-label="Dettagli evento Mele">Dettagli</a>
+            </div>
+          </div>
+        </li>
+          </ul>
+
+    <div class="eventi__more">
+      <a class="btn btn--ghost" href="http://staging2.francescop212.sg-host.com/categoria/eventi">
+        Vedi tutti gli eventi →
+      </a>
+    </div>
+
+    <p class="note-legal">
+      <strong>Nota:</strong> calendario soggetto a variazioni; foto illustrative.
+    </p>
+  </div>
+</section>
+
+
+
+<section id="social" class="section social" aria-labelledby="social-title">
+  <div class="container">
+    <header class="social__head">
+      <span class="kicker">Rimani aggiornato</span>
+      <h2 id="social-title">Seguici: novità, raccolti, eventi</h2>
+      <p class="lead">Condividiamo solo ciò che conta: disponibilità stagionali, lavorazioni, date degli eventi.</p>
+    </header>
+
+    <ul class="social__list" role="list">
+      <li>
+        <a class="social__item" href="https://instagram.com/ansema" target="_blank" rel="noopener" aria-label="Instagram di Ansema">
+          <span class="icon" aria-hidden="true">
+            <!-- Instagram (monocromo, accent) -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5-5-0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5a5.5 5.5 0 1 1 0 11.001 5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 .001 7.001A3.5 3.5 0 0 0 12 9.5zM17.5 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+            </svg>
+          </span>
+          <span class="social__text">
+            <strong class="social__label">@ansema</strong>
+            <span class="social__hint">Instagram</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="social__item" href="https://facebook.com/ansema" target="_blank" rel="noopener" aria-label="Facebook di Ansema">
+          <span class="icon" aria-hidden="true">
+            <!-- Facebook (monocromo, accent) -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M13 3h4a1 1 0 0 1 1 1v3h-3a2 2 0 0 0-2 2v3h4l-1 4h-3v6h-4v-6H7v-4h3V9a4 4 0 0 1 4-4z"></path>
+            </svg>
+          </span>
+          <span class="social__text">
+            <strong class="social__label">Ansema</strong>
+            <span class="social__hint">Facebook</span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="social__item" href="/newsletter" aria-label="Iscriviti alla newsletter di Ansema">
+          <span class="icon" aria-hidden="true">
+            <!-- Mail/Newsletter (monocromo, accent) -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+              <path d="M3 5h18a1 1 0 0 1 1 1v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a1 1 0 0 1 1-1zm1.2 2l7.6 5.1a2 2 0 0 0 2.4 0L21.8 7H4.2z"></path>
+            </svg>
+          </span>
+          <span class="social__text">
+            <strong class="social__label">Newsletter</strong>
+            <span class="social__hint">Aggiornamenti periodici</span>
+          </span>
+        </a>
+      </li>
+    </ul>
+
+    <p class="social__note">Se vuoi rimanere aggiornato sulle novità, ci trovi qui <span aria-hidden="true">✷</span></p>
+  </div>
+</section>
+
+
+
+<p></p>
+  </div>
+</main>

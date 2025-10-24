@@ -3,48 +3,56 @@
     "title": "Polenta di farro e segale tostata con bietole maritate",
     "categoria_pasto": "pranzo",
     "tipo_portata": "antipasto",
+    "prezzo": 7.50,
     "piatto_settimana": true
   },
   {
     "title": "Insalata di radicchio leggermente appassito con mele e noci",
     "categoria_pasto": "pranzo",
     "tipo_portata": "antipasto",
+    "prezzo": 8.00,
     "piatto_settimana": true
   },
   {
     "title": "Gnocchi di patate al pomodoro fresco, olive e capperi",
     "categoria_pasto": "pranzo",
     "tipo_portata": "primo",
+    "prezzo": 10.50,
     "piatto_settimana": true
   },
   {
     "title": "Maccheroni di grano saraceno con patate, cavolo nero e burro nocciola",
     "categoria_pasto": "pranzo",
     "tipo_portata": "primo",
+    "prezzo": 11.00,
     "piatto_settimana": true
   },
   {
     "title": "Bistecca ai ferri con cavolo cappuccio ripassato al burro e crema di erborinato",
     "categoria_pasto": "pranzo",
     "tipo_portata": "secondo",
+    "prezzo": 15.50,
     "piatto_settimana": true
   },
   {
     "title": "Cubi di Zucca Okkaido e polvere dei suoi semi con tomino boscaiolo alla piastra",
     "categoria_pasto": "pranzo",
     "tipo_portata": "secondo",
+    "prezzo": 14.00,
     "piatto_settimana": true
   },
   {
     "title": "Composta di mele di antiche varietà con panna montata",
     "categoria_pasto": "pranzo",
     "tipo_portata": "dolce",
+    "prezzo": 5.50,
     "piatto_settimana": true
   },
   {
     "title": "Torta di noci con crema di fichi",
     "categoria_pasto": "pranzo",
     "tipo_portata": "dolce",
+    "prezzo": 6.00,
     "piatto_settimana": true
   },
 
@@ -52,48 +60,56 @@
     "title": "Cubi di zucca Okkaido marinati con pane tostato, burro dei semi e salsa al prezzemolo",
     "categoria_pasto": "cena",
     "tipo_portata": "antipasto",
+    "prezzo": 8.50,
     "piatto_settimana": true
   },
   {
     "title": "Radicchio in salmì all’uva appassita e fresca con toma al nebbiolo fusa, noci tostate e riduzione",
     "categoria_pasto": "cena",
     "tipo_portata": "antipasto",
+    "prezzo": 8.50,
     "piatto_settimana": true
   },
   {
     "title": "Gnocchi di zucca Delica a vapore, crema di erborinato, cavolo cappuccio brasato",
     "categoria_pasto": "cena",
     "tipo_portata": "primo",
+    "prezzo": 11.50,
     "piatto_settimana": true
   },
   {
     "title": "Cuciarin alla segale, finferli, cavolo nero e patate",
     "categoria_pasto": "cena",
     "tipo_portata": "primo",
+    "prezzo": 12.00,
     "piatto_settimana": true
   },
   {
     "title": "Cappello del prete stufato con puré fondente di sedano rapa al burro",
     "categoria_pasto": "cena",
     "tipo_portata": "secondo",
+    "prezzo": 16.00,
     "piatto_settimana": true
   },
   {
     "title": "Polenta di farro e segale con funghi porcini trifolati all’olio di Settimo, prezzemolo e aglio",
     "categoria_pasto": "cena",
     "tipo_portata": "secondo",
+    "prezzo": 15.00,
     "piatto_settimana": true
   },
   {
     "title": "Crema pasticcera al sambuco con mele cotte di antiche varietà e gelato al latte miele",
     "categoria_pasto": "cena",
     "tipo_portata": "dolce",
+    "prezzo": 6.00,
     "piatto_settimana": true
   },
   {
     "title": "Clafoutis ai fichi con panna montata",
     "categoria_pasto": "cena",
     "tipo_portata": "dolce",
+    "prezzo": 5.50,
     "piatto_settimana": true
   },
 
@@ -101,14 +117,14 @@
     "title": "Le nostre patate novelle al forno",
     "categoria_pasto": "merenda",
     "tipo_portata": "da stuzzicare",
-    "prezzo": 4.0,
+    "prezzo": 4.00,
     "piatto_settimana": true
   },
   {
     "title": "Tomino stagionato con trito di erbe aromatiche e spontanee",
     "categoria_pasto": "merenda",
     "tipo_portata": "da stuzzicare",
-    "prezzo": 1.8,
+    "prezzo": 1.80,
     "note": "prezzo cad.",
     "piatto_settimana": true
   },
@@ -117,13 +133,14 @@
     "categoria_pasto": "merenda",
     "tipo_portata": "da stuzzicare",
     "note": "maio all’aglio orsino, ketchup alla rosa canina, salsa al rafano, bagnetto verde alle spontanee",
+    "prezzo": 2.50,
     "piatto_settimana": true
   },
   {
     "title": "Pane e crackers agricoli",
     "categoria_pasto": "merenda",
     "tipo_portata": "da stuzzicare",
-    "prezzo": 1.5,
+    "prezzo": 1.50,
     "piatto_settimana": true
   },
   {
@@ -131,7 +148,7 @@
     "categoria_pasto": "merenda",
     "tipo_portata": "tagliere",
     "description": "Verdure di stagione in diverse consistenze e cotture",
-    "prezzo": 13.0,
+    "prezzo": 13.00,
     "piatto_settimana": true
   },
   {
@@ -139,7 +156,7 @@
     "categoria_pasto": "merenda",
     "tipo_portata": "tagliere",
     "description": "Formaggi locali, miele di flora alpina Presidio Slow Food (Apicoltura Le Querce), composta della settimana",
-    "prezzo": 18.0,
+    "prezzo": 18.00,
     "piatto_settimana": true
   },
   {
@@ -147,7 +164,7 @@
     "categoria_pasto": "merenda",
     "tipo_portata": "tagliere",
     "description": "Affettati da maiali allevati consapevolmente, miele di bosco bio (Apicoltura Le Querce), composta della settimana",
-    "prezzo": 24.0,
+    "prezzo": 24.00,
     "piatto_settimana": true
   }
 ]

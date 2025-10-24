@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "slug": "erbaluce-pas-dose",
+      "name": "Erbaluce Pas Dosé",
+      "style": "Spumante metodo classico da Erbaluce",
+      "color": "bianco spumante",
+      "grapes": ["Erbaluce"],
+      "producer": {
+        "name": "Terre Sparse",
+        "location": "Chiaverano"
+      },
+      "story": "Matteo coltiva vigne trentennali sulle colline moreniche del Canavese. Raccoglie a mano, vinifica con delicatezza e lascia che la rifermentazione in bottiglia esprima la purezza dell’Erbaluce. Fresco, minerale, dai profumi di fiori bianchi e dal perlage fine.",
+      "price_eur": 28,
+      "display_order": 1
+    },
+    {
+      "slug": "rose-extra-brut",
+      "name": "Rosé Extra Brut",
+      "style": "Spumante metodo classico da Neretto",
+      "color": "rosato spumante",
+      "grapes": ["Neretto"],
+      "producer": {
+        "name": "Cieck",
+        "location": "San Giorgio C.se"
+      },
+      "story": "Lia porta avanti la tradizione di famiglia con gesti lenti e precisi: pressatura delicata, lunga sosta sui lieviti e remuage a mano. Un rosé elegante, profumato di frutti rossi e fiori, dalle bollicine fini che raccontano tempo e cura.",
+      "price_eur": 30,
+      "display_order": 2
+    },
+    {
+      "slug": "scelte-di-vite",
+      "name": "Scelte di Vite",
+      "style": "Erbaluce fermo",
+      "color": "bianco fermo",
+      "grapes": ["Erbaluce"],
+      "producer": {
+        "name": "Cantina 366",
+        "location": "Bairo C.se"
+      },
+      "story": "Francesco lavora con precisione e ascolto. Le pergole di Agliè sono curate come giardini, e l’Erbaluce che ne nasce è chiaro, fresco e vibrante. Un vino che parla di passione e luce.",
+      "price_eur": 22,
+      "display_order": 3
+    },
+    {
+      "slug": "pink-servaj",
+      "name": "Pink Servaj",
+      "style": "Rosato da Barbera",
+      "color": "rosato fermo",
+      "grapes": ["Barbera"],
+      "producer": {
+        "name": "Alex Alberand",
+        "location": "Salassa"
+      },
+      "story": "Alex riporta la viticoltura a Salassa partendo dalle radici. I suoi vini sono sinceri e profumati. Pink Servaj è un rosato libero, selvatico nel nome e delicato nel cuore.",
+      "price_eur": 20,
+      "display_order": 4
+    },
+    {
+      "slug": "fuoriserie",
+      "name": "Fuoriserie",
+      "style": "Orange wine da Erbaluce",
+      "color": "orange",
+      "grapes": ["Erbaluce"],
+      "producer": {
+        "name": "Officina del Vino",
+        "location": "Settimo Rottaro"
+      },
+      "story": "Un omaggio a un contadino che non c’è più. Luca lascia che bucce e raspi raccontino una storia fuori dagli schemi. Un vino per chi ama andare un po’ più in là.",
+      "price_eur": 28,
+      "display_order": 5
+    },
+    {
+      "slug": "porpora",
+      "name": "Porpora",
+      "style": "Rosso da uva rara",
+      "color": "rosso fermo",
+      "grapes": ["Uva Rara"],
+      "producer": {
+        "name": "Officina del Vino",
+        "location": "Settimo Rottaro"
+      },
+      "story": "Luca riscopre vitigni dimenticati. L’uva rara è davvero rara, vinificata con rispetto. Porpora è fruttato, intenso ma giocoso, perfetto per stare in compagnia.",
+      "price_eur": 24,
+      "display_order": 6
+    },
+    {
+      "slug": "frenesia",
+      "name": "Frenesia",
+      "style": "Freisa",
+      "color": "rosso fermo",
+      "grapes": ["Freisa"],
+      "producer": {
+        "name": "Terre Sparse",
+        "location": "Chiaverano"
+      },
+      "story": "Matteo raccoglie la Freisa a mano a fine ottobre e la lascia maturare in barrique. Nasce un rosso rubino intenso, strutturato, con note di frutti rossi e cioccolato.",
+      "price_eur": 26,
+      "display_order": 7
+    },
+    {
+      "slug": "tucc-un",
+      "name": "Tucc-Un",
+      "style": "Canavese DOC Rosso",
+      "color": "rosso fermo",
+      "grapes": ["Barbera", "Freisa", "Neretto"],
+      "producer": {
+        "name": "Cieck",
+        "location": "San Giorgio C.se"
+      },
+      "story": "Lia unisce Barbera, Freisa e Neretto in un rosso conviviale e fiero. Un vino che celebra lo spirito comunitario di Ivrea, tra semplicità e libertà.",
+      "price_eur": 22,
+      "display_order": 8
+    },
+    {
+      "slug": "morenico",
+      "name": "Morenico",
+      "style": "Nebbiolo",
+      "color": "rosso fermo",
+      "grapes": ["Nebbiolo"],
+      "producer": {
+        "name": "Valchyara",
+        "location": "Val di Chy"
+      },
+      "story": "Costantino coltiva Nebbiolo sui pendii morenici della Valchiusella. Fermentazioni spontanee e 18 mesi in tonneaux donano un vino vibrante e minerale.",
+      "price_eur": 38,
+      "display_order": 9
+    },
+    {
+      "slug": "alladium",
+      "name": "Alladium",
+      "style": "Erbaluce di Caluso DOCG Passito",
+      "color": "bianco dolce",
+      "grapes": ["Erbaluce"],
+      "producer": {
+        "name": "Cieck",
+        "location": "San Giorgio C.se"
+      },
+      "story": "Lia custodisce un gesto antico: appendere i grappoli d’Erbaluce in inverno perché concentrino dolcezza e memoria. Dopo anni di affinamento nasce un passito ambrato ed elegante, tra miele e frutta candita.",
+      "price_eur": 34,
+      "display_order": 10
+    }
+  ]
+}

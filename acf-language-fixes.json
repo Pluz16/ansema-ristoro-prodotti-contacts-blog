@@ -1,0 +1,83 @@
+{
+    "key": "group_language_fixes",
+    "title": "Regole di Traduzione Automatica",
+    "fields": [
+        {
+            "key": "field_fix_lang",
+            "label": "Lingua di Applicazione",
+            "name": "lang_code",
+            "type": "select",
+            "choices": {
+                "it": "Italiano (it)",
+                "en": "English (en)",
+                "fr": "Français (fr)",
+                "es": "Español (es)"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": "Seleziona lingua",
+            "return_format": "value"
+        },
+        {
+            "key": "field_fix_find",
+            "label": "Testo da Cercare",
+            "name": "find_text",
+            "type": "text",
+            "instructions": "Inserisci la parola o frase originale da sostituire (es. Ristoro)",
+            "required": 1
+        },
+        {
+            "key": "field_fix_replace",
+            "label": "Testo Sostitutivo",
+            "name": "replace_text",
+            "type": "text",
+            "instructions": "Inserisci il testo corretto (es. Restaurant)",
+            "required": 1
+        },
+        {
+            "key": "field_fix_scope",
+            "label": "Ambito / Target",
+            "name": "target_scope",
+            "type": "select",
+            "choices": {
+                "global": "Globale (tutto il sito)",
+                "home": "Solo Homepage",
+                "ristoro": "Solo pagina Ristoro",
+                "prodotti": "Solo Catalogo Prodotti",
+                "blog": "Solo Blog"
+            },
+            "default_value": ["global"],
+            "ui": 1
+        },
+        {
+            "key": "field_fix_priority",
+            "label": "Priorità",
+            "name": "priority",
+            "type": "number",
+            "instructions": "Valore numerico (1 = più alta priorità)",
+            "default_value": 10,
+            "min": 1,
+            "max": 100
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "language_fix"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": ""
+}

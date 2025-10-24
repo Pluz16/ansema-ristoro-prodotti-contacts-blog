@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Insalata di cavolo cappuccio con mele grigie di Torriana, radicchio, noci e pecorino fresco",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "antipasto",
+    "prezzo": 10.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Vellutata di zucchine trombetta, pane tostato, olio al trartufo e finferli saltati",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "antipasto",
+    "prezzo": 10.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Zuppa di ceci, cavolo nero e cipolla con pane tostato",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "antipasto",
+    "prezzo": 13.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Tagliolino ai funghi porcini nostrani e rosmarino",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "primo",
+    "prezzo": 13.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Lasagna alla zucca delica e salsiccia con crema di porro",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "primo",
+    "prezzo": 13.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Salamella arrosto con purè di sedano rapa e riduzione di mele",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "secondo",
+    "prezzo": 18.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Composta di mele di antiche varietà con panna montata",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "dolce",
+    "prezzo": 6.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Prugne caramellate con meringa e gelato al latte e miele",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "dolce",
+    "prezzo": 6.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Pane e crackers agricoli",
+    "categoria_pasto": "pranzo",
+    "tipo_portata": "extra",
+    "prezzo": 1.5,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Mela grigia di Torriana in sfoglia con radicchio e noci, crema di robiola di pecora",
+    "categoria_pasto": "cena",
+    "tipo_portata": "antipasto",
+    "prezzo": 12.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Vellutata di zucchina trombetta con finferli ripassati al timo e pomodorini gialli confit",
+    "categoria_pasto": "cena",
+    "tipo_portata": "antipasto",
+    "prezzo": 13.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Zuppa di pane integrale con funghi porcini e il loro brodo",
+    "categoria_pasto": "cena",
+    "tipo_portata": "primo",
+    "prezzo": 16.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Ribollita di cavolo nero, verdure e ceci con cialda di polenta al mais tostata",
+    "categoria_pasto": "cena",
+    "tipo_portata": "primo",
+    "prezzo": 14.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Tortelli alla zucca Delica con polvere dei suoi semi e crema di porro",
+    "categoria_pasto": "cena",
+    "tipo_portata": "primo",
+    "prezzo": 14.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Capocollo di maiale arrosto con prugne caramellate e mousse di sedano rapa",
+    "categoria_pasto": "cena",
+    "tipo_portata": "secondo",
+    "prezzo": 20.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Torta di pane caramellata ai fichi con il loro coulis e polvere delle loro foglie",
+    "categoria_pasto": "cena",
+    "tipo_portata": "dolce",
+    "prezzo": 8.0,
+    "piatto_settimana": true
+  },
+  {
+    "title": "Crostatina normanna alle prugne con gelato allo yogurt",
+    "categoria_pasto": "cena",
+    "tipo_portata": "dolce",
+    "prezzo": 8.0,
+    "piatto_settimana": true
+  }
+]

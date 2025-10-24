@@ -1,0 +1,93 @@
+[
+  {
+    "key": "group_bevande",
+    "title": "Dettagli Bevanda",
+    "fields": [
+      {
+        "key": "field_tipo_bevanda",
+        "label": "Tipo di Bevanda",
+        "name": "tipo_bevanda",
+        "type": "select",
+        "choices": {
+          "alcolici": "Alcolica",
+          "analcolici": "Analcolica"
+        },
+        "default_value": "analcolici",
+        "ui": 1,
+        "instructions": "Seleziona se la bevanda è alcolica o analcolica.",
+        "required": 1
+      },
+      {
+        "key": "field_prezzo_bevanda",
+        "label": "Prezzo (€)",
+        "name": "prezzo",
+        "type": "number",
+        "prepend": "€",
+        "step": "0.01",
+        "placeholder": "Es. 3.50",
+        "instructions": "Inserisci il prezzo base della bevanda."
+      },
+      {
+        "key": "field_produttore_bevanda",
+        "label": "Produttore",
+        "name": "produttore",
+        "type": "text",
+        "placeholder": "Es. Cantina Sociale della Serra",
+        "instructions": "Nome del produttore, azienda o birrificio (facoltativo)."
+      },
+      {
+        "key": "field_note_bevanda",
+        "label": "Note / Descrizione",
+        "name": "note",
+        "type": "textarea",
+        "rows": 3,
+        "placeholder": "Es. Sciroppo di nostra produzione, fermentato con lieviti naturali...",
+        "instructions": "Breve descrizione o nota informativa sulla bevanda."
+      },
+      {
+        "key": "field_varianti_bevanda",
+        "label": "Varianti",
+        "name": "varianti",
+        "type": "repeater",
+        "button_label": "Aggiungi Variante",
+        "layout": "table",
+        "instructions": "Aggiungi formati o varianti della bevanda con prezzo specifico.",
+        "sub_fields": [
+          {
+            "key": "field_var_nome",
+            "label": "Nome / Formato",
+            "name": "nome",
+            "type": "text",
+            "placeholder": "Es. Piccola, Media, 33cl",
+            "wrapper": { "width": 60 }
+          },
+          {
+            "key": "field_var_prezzo",
+            "label": "Prezzo Variante (€)",
+            "name": "prezzo",
+            "type": "number",
+            "prepend": "€",
+            "step": "0.01",
+            "placeholder": "Es. 4.00",
+            "wrapper": { "width": 40 }
+          }
+        ]
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "bevande"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true
+  }
+]

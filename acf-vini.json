@@ -1,0 +1,70 @@
+[
+  {
+    "key": "group_vini",
+    "title": "Dettagli Vino",
+    "fields": [
+      {
+        "key": "field_prezzo_vino",
+        "label": "Prezzo (€)",
+        "name": "prezzo_eur",
+        "type": "number",
+        "prepend": "€",
+        "step": "0.01"
+      },
+      {
+        "key": "field_stile_vino",
+        "label": "Stile",
+        "name": "stile",
+        "type": "text",
+        "instructions": "Es. Rosso, Bianco, Spumante"
+      },
+      {
+        "key": "field_uve_vino",
+        "label": "Uve",
+        "name": "uve",
+        "type": "textarea",
+        "rows": 2
+      },
+      {
+        "key": "field_produttore_nome",
+        "label": "Produttore",
+        "name": "produttore_nome",
+        "type": "text"
+      },
+      {
+        "key": "field_produttore_localita",
+        "label": "Località Produttore",
+        "name": "produttore_localita",
+        "type": "text"
+      },
+      {
+        "key": "field_story_vino",
+        "label": "Storia / Descrizione",
+        "name": "story",
+        "type": "textarea",
+        "rows": 4
+      },
+      {
+        "key": "field_disponibile_vino",
+        "label": "Disponibile",
+        "name": "disponibile",
+        "type": "true_false",
+        "ui": 1,
+        "message": "Segna il vino come disponibile nella carta",
+        "default_value": 1
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "vini"
+        }
+      ]
+    ],
+    "style": "seamless",
+    "label_placement": "top",
+    "active": true
+  }
+]
